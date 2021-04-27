@@ -1,1 +1,20 @@
+/* imports */
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css); /* credits to @Leeprky */
 
+ /* bg colours */
+--background-primary: #191f30;
+--background-titlebar: #191f308f;
+--background-primary-alt: #191f30;
+--background-secondary: #252b3b;
+--background-secondary-alt: #252b3b;
+--background-tertiary: #2c344d;
+--background-accent: var(--alt-color2);
+--background-accent-gradient: var(--alt-color2);
+--background-floating: #2b3341;
+
+ /* hover colours */
+--background-modifier-hover: rgba(56, 168, 151, 0.459);
+--background-modifier-active: rgba(56, 168, 151, 0.521);
+--background-modifier-selected: rgba(56, 168, 151, 0.178);
+--background-modifier-accent: rgba(56, 168, 151, 0.418);
+--background-message-hover: transparent;
