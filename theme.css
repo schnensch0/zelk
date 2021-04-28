@@ -2,15 +2,15 @@
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css); /* credits to @Leeprky */
 
  /* bg colours */
---background-primary: #191f30;
---background-titlebar: #191f308f;
---background-primary-alt: #191f30;
---background-secondary: #252b3b;
---background-secondary-alt: #252b3b;
---background-tertiary: #2c344d;
---background-accent: var(--alt-color2);
---background-accent-gradient: var(--alt-color2);
---background-floating: #2b3341;
+--background-primary: #131719;
+--background-titlebar: #1317198f;
+--background-primary-alt: #131719;
+--background-secondary: #131719;
+--background-secondary-alt: #131719;
+--background-tertiary: #191F22;
+--background-accent: #323D4;
+--background-accent-gradient: #191F22;
+--background-floating: #191F22;
 
  /* hover colours */
 --background-modifier-hover: rgba(56, 168, 151, 0.459);
