@@ -1,5 +1,9 @@
 /* imports */
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css); /* credits to Leeprky#2063 */
+
+/* credits to Leeprky#2063 */
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css);
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/LightModeWarning.css);
 
 .theme-dark {
  /* bg colours */
@@ -20,3 +24,28 @@
 --background-modifier-accent: rgba(56, 168, 151, 0.418);
 --background-message-hover: transparent;
 }
+
+/* round */
+--modal-border-radius: 15px 15px 15px 15px;
+--floating-border-radius: 15px 15px 15px 15px;
+--expanded-border-radius: 15px 15px 15px 15px;
+--hover-border-radius: 10px 10px 10px 10px;
+--avatar-border-radius: 11.5px 11.5px 11.5px 11.5px; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+--chat-text-border-radius: 12px 12px 12px 12px;
+
+--borders-radius: 12px;
+--borders-radius-right: 6px;
+--borders-radius-left: 8px;
+--borders-radius-bottom: 8px;
+--borders-radius-top: 5px;
+
+--titlebar-borders-radius: 12px;
+--titlebar-borders-radius-right: 12px;
+--titlebar-borders-radius-left: 8px;
+--titlebar-borders-radius-bottom: 10px;
+--titlebar-borders-radius-top: 8px;
+
+--chatbox-border-radius: 22px;
+
+--spotify-right: 1.7rem;
