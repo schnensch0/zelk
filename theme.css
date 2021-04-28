@@ -1,6 +1,7 @@
 /* imports */
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css); /* credits to @Leeprky */
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css); /* credits to Leeprky#2063 */
 
+.theme-dark {
  /* bg colours */
 --background-primary: #131719;
 --background-titlebar: #1317198f;
@@ -18,3 +19,4 @@
 --background-modifier-selected: rgba(56, 168, 151, 0.178);
 --background-modifier-accent: rgba(56, 168, 151, 0.418);
 --background-message-hover: transparent;
+}
