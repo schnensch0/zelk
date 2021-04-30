@@ -1,5 +1,4 @@
 /* imports */
-
 /* credits to Leeprky#2063 */
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/LightModeWarning.css);
@@ -22,8 +21,6 @@
   --background-modifier-accent: rgba(56, 168, 151, 0.418);
   --background-message-hover: transparent;
 }
-
-
 
 /* DO NOT CHANGE ANY OF THIS vv */
 .members-1998pB, .members-1998pB>div, .container-1r6BKw.themed-ANHk51, .container-1taM1r, .channelTextArea-rNsIhG, .searchBar-6Kv8R2, .nowPlayingColumn-2sl4cE, .notice-3bPHh-, .notice-3uyY6c, .container-1D34oG, .tabBody-3YRQ8W, .contentRegionScroller-26nc1e, .privateChannels-1nO12o, .searchBar-6Kv8R2, .chat-3bRxxu, .container-3w7J-x{
@@ -63,9 +60,6 @@
 .chatContent-a9vAAp, .scroller-RmtA4e{
   background-color: var(--background-primary);
 }
-.scrollerBase-289Jih{
-  border: var(--background-tertiary);
-}
 .separator-2I32lJ{
   border-bottom: thin solid transparent;
 }
@@ -88,7 +82,7 @@
 .icon-3cZ1F_ {
   color: var(--text-normal);
 }
-/* credits to Nyria#3863 */
+/* minified search bar, credits to Nyria#3863 */
 .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
 .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
 .search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
@@ -96,4 +90,21 @@
 
 .searchBar-6Kv8R2, .header-2V-4Sw{
   box-shadow: none;
+}
+.wrapper-2jXpOf{
+  margin-right: 10px;
+}
+.animatedContainer-1NSq4T{
+  z-index: 2;
+}
+.containerDefault-3tr_sE{
+  padding-left: 10px;
+  padding-right: 2px;
+}
+.content-1x5b-n{
+  margin-left: 10px;
+}
+.markup-2BOw-j code{
+  background-color: var(--background-tertiary);
+  border-radius: 6px;
 }
