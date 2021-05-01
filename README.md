@@ -10,10 +10,13 @@ Preview:
 * settings
 * accent colors
 * text colors
-* hover/highlight colors
 * mention colors
 * more colors
+* add server modal
+* more variables & customisation
+* clean up
 * icons?
+* ~~hover/highlight colors~~
 * ~~friends~~
 * ~~chat~~
 * ~~member list~~
