@@ -8,17 +8,9 @@ Preview:
 
 ### TO DO:
 * settings
-* accent colors
-* text colors
+* text colors?
 * mention colors
-* more colors
-* add server modal
+* add server
 * more variables & customisation
 * clean up
 * icons?
-* ~~hover/highlight colors~~
-* ~~friends~~
-* ~~chat~~
-* ~~member list~~
-* ~~channel list~~
-* ~~background colors~~
