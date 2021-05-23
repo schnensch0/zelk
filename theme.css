@@ -15,8 +15,8 @@
   --background-floating: #191F22;
 
  /* hover colours */
-  --background-modifier-hover: #1c2428);
-  --background-modifier-active: #1c2428;
+  --background-modifier-hover: #1c2428;
+  --background-modifier-active: #2f3b40;
   --background-modifier-selected: #c1e7fd;
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
@@ -28,13 +28,10 @@
 
 
 /* DO NOT CHANGE ANY OF THIS vv */
-.members-1998pB, .members-1998pB>div, .container-1r6BKw.themed-ANHk51, .container-1taM1r, .channelTextArea-rNsIhG, .searchBar-6Kv8R2, .nowPlayingColumn-2sl4cE, .notice-3bPHh-, .notice-3uyY6c, .container-1D34oG, .tabBody-3YRQ8W, .contentRegionScroller-26nc1e, .privateChannels-1nO12o, .searchBar-6Kv8R2, .chat-3bRxxu, .container-3w7J-x, .homeWrapperNormal-2KSUEa, .container-lRFx4q, .headerNormal-T_seeN, .body-3iLsc4, .footer-1fjuF6, .headerNormal-1l1Znk{
+.members-1998pB, .members-1998pB>div, .container-1r6BKw.themed-ANHk51, .container-1taM1r, .channelTextArea-rNsIhG, .searchBar-6Kv8R2, .nowPlayingColumn-2sl4cE, .notice-3bPHh-, .notice-3uyY6c, .container-1D34oG, .tabBody-3YRQ8W, .contentRegionScroller-26nc1e, .privateChannels-1nO12o, .searchBar-6Kv8R2, .chat-3bRxxu, .container-3w7J-x, .homeWrapperNormal-2KSUEa, .container-lRFx4q, .headerNormal-T_seeN, .body-3iLsc4, .footer-1fjuF6, .headerNormal-1l1Znk, .root-1gCeng{
   background-color: var(--background-tertiary) !important;
 }
-.wrapper-3D2qGf, .emptyCard-1RJw8n, .sidebar-2K8pFh{
-  border-radius: 10px;
-}
-.userPopout-3XzG_A{
+.wrapper-3D2qGf, .emptyCard-1RJw8n, .sidebar-2K8pFh, .root-1gCeng, .userPopout-3XzG_A, .footer-2gL1pp, .menu-3sdvDG{
   border-radius: 10px;
 }
 .footer-1fjuF6{
@@ -125,7 +122,7 @@
 .colorBrand-ROmMP1{
   color: var(--interactive-normal);
 }
-.colorBrand-ROmMP1.focused-3afm-j, .colorDefault-2K3EoJ.focused-3afm-j, .colorPremium-p4p7qO.focused-3afm-j .icon-LYJorE{
+.colorBrand-ROmMP1.focused-3afm-j, .colorDefault-2K3EoJ.focused-3afm-j{
   color: var(--interactive-selected);
   background-color: var(--background-modifier-selected);
 }
@@ -135,9 +132,31 @@
 .selected-aXhQR6.container-2Pjhx-, .selected-3s45Ha.item-PXvHYJ, .selected-3s45Ha.item-PXvHYJ:hover, .selected-aXhQR6 .roleColor-rz2vM0, .modeSelected-346R90 .name-23GUGE, .modeSelected-346R90 .actionIcon-PgcMM2, .button-14-BFJ.enabled-2cQ-u7:hover .contents-18-Yxp{
   color: var(--interactive-selected) !important;
 }
-.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
-  color: var(--background-modifier-selected) !important;
-  background-color: transparent !important;
+.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ .tabBar-2MuP6- .top-28JiJ-{
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+}
+.top-28JiJ- .item-PXvHYJ{
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+}
+.button-38aScr{
+  border-radius: 8px;
+}
+.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{
+  border-bottom-color: transparent;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
+  background-color: var(--background-modifier-selected);
+}
+.top-28JiJ- .item-PXvHYJ{
+  border: 0px;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
   background-color: #c1e7fd;
@@ -151,7 +170,7 @@
   background-color: var(--background-modifier-selected);
   color: var(--interactive-selected);
 }
-.bodyTitle-Y0qMQz, .note-3HfJZ5, .body-3ND3kc, .tabBarContainer-1s1u-z{
+.bodyTitle-Y0qMQz, .note-3HfJZ5{
   display: none;
 }
 .activity-fViXj7{
@@ -159,4 +178,24 @@
 }
 .profileBanner-j34RzR{
   background-color: var(--background-tertiary) !important;
+}
+.colorDefault-2K3EoJ.focused-3afm-j{
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+.icon-LYJorE{
+  color: var(--background-modifier-selected);
+}
+.colorPremium-p4p7qO.focused-3afm-j .icon-LYJorE{
+  color: #ff73fa !important;
+}
+.colorDefault-2K3EoJ:active{
+  background-color: var(--background-modifier-active) !important;
+}
+.layer-v9HyYc .popout_164{
+  left: 82px !important;
+  bottom: 63px !important;
+}
+.powercord-spotify .container-3baos1 .avatarWrapper-2yR4wp{
+  margin-left: 2px;
 }
