@@ -290,6 +290,12 @@
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active{color: var(--button-destructive-active) !important;background-color: var(--background-modifier-active) !important;}
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active::before{--settings-icon-color: var(--button-destructive-active);
 }
+.powercord-product, .container-cMG81i, .css-gvi9bl-control, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si{
+  border-radius: 10px;
+}
+.css-gvi9bl-control{
+  background-color: var(--background-secondary);
+}
 /* slider */
 .barFill-23-gu-{
   background: var(--background-modifier-selected);
