@@ -15,15 +15,27 @@
   --background-floating: #191F22;
 
  /* hover colours */
-  --background-modifier-hover: #1c2428;
-  --background-modifier-active: #2f3b40;
-  --background-modifier-selected: #c1e7fd;
+  --background-modifier-hover: #21292c;
+  --background-modifier-active: #2b3437;
+  --background-modifier-selected: #BDE6FB;
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
 
 /* text colors */
   --interactive-selected: #191F22;
   --interactive-active: #c1e7fd;
+
+/* more colors */
+  --settings-icon-color: #BDE6FB;
+  --menu-background: #171d20;
+
+/* buttons */
+  --button-background: #252E32;
+  --button-background-hover: #323d42;
+  --button-background-active: #4a5b63;
+  --button-background-destructive: #FB7C7C;
+  --button-background-destructive-hover: #ff929b;
+  --button-background-destructive-active: #fa4a4a;
 }
 
 
@@ -192,10 +204,38 @@
 .colorDefault-2K3EoJ:active{
   background-color: var(--background-modifier-active) !important;
 }
+/* status menu */
 .layer-v9HyYc .popout_164{
   left: 82px !important;
   bottom: 63px !important;
 }
 .powercord-spotify .container-3baos1 .avatarWrapper-2yR4wp{
   margin-left: 2px;
+}
+/* button */
+.lookFilled-1Gx00P.colorBrand-3pXr91{
+  background-color: var(--button-background);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover{
+  background-color: var(--button-background-hover);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:active{
+  background-color: var(--button-background-active);
+}
+.lookFilled-1Gx00P.colorRed-1TFJan{
+  background-color: var(--button-background-destructive);
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan{
+  border-color: var(--button-background-destructive);
+  background-color: #FB7C7C38;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover, .lookOutlined-3sRXeN.colorRed-1TFJan:hover{
+  background-color: var(--button-background-destructive-hover);
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:active, .lookOutlined-3sRXeN.colorRed-1TFJan:active{
+  background-color: var(--button-background-destructive-active);
+}
+/* explore tab */
+.categoryItem-1QIroW{
+  margin-right: 8px;
 }
