@@ -9,13 +9,11 @@ Zelk is a [Powercord](https://powercord.dev) theme trying to mimic the [Zorin Bl
 **Enable Custom Profiles Premium in your Experiments**
 
 ### TO DO:
-* text colors
-* mention colors
 * add server
 * more variables & customisation
 * clean up
+* font
 * icons?
-* animations?
-* font?
+* animations?????????
 * light mode?
 * more accent colors?
