@@ -1,7 +1,7 @@
 # Zelk
 `0.1 ALPHA`
 
-Zelk is a theme for [Powercord](https://powercord.dev) using the [Zorin OS 16 Dark Blue](https://launchpad.net/~zorinos/+archive/ubuntu/stable/+sourcepub/12406563/+listing-archive-extra) color scheme and smooth rounded corners.
+Zelk is a [Powercord](https://powercord.dev) theme trying to mimic the [Zorin Blue Dark](https://launchpad.net/~zorinos/+archive/ubuntu/stable/+sourcepub/12406563/+listing-archive-extra) GTK theme.
 
 ### INSTALLATION:
 `git clone https://github.com/schnensch0/zelk.git`
