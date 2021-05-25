@@ -57,7 +57,7 @@
 
 
 /* DO NOT CHANGE ANY OF THIS vv */
-.members-1998pB, .members-1998pB>div, .container-1r6BKw.themed-ANHk51, .container-1taM1r, .channelTextArea-rNsIhG, .searchBar-6Kv8R2, .nowPlayingColumn-2sl4cE, .notice-3bPHh-, .notice-3uyY6c, .container-1D34oG, .tabBody-3YRQ8W, .contentRegionScroller-26nc1e, .privateChannels-1nO12o, .searchBar-6Kv8R2, .chat-3bRxxu, .container-3w7J-x, .homeWrapperNormal-2KSUEa, .container-lRFx4q, .headerNormal-T_seeN, .body-3iLsc4, .footer-1fjuF6, .headerNormal-1l1Znk, .root-1gCeng, .footer-2gL1pp{
+.members-1998pB, .members-1998pB>div, .container-1r6BKw.themed-ANHk51, .container-1taM1r, .channelTextArea-rNsIhG, .searchBar-6Kv8R2, .nowPlayingColumn-2sl4cE, .notice-3bPHh-, .notice-3uyY6c, .container-1D34oG, .tabBody-3YRQ8W, .contentRegionScroller-26nc1e, .privateChannels-1nO12o, .searchBar-6Kv8R2, .chat-3bRxxu, .container-3w7J-x, .homeWrapperNormal-2KSUEa, .container-lRFx4q, .headerNormal-T_seeN, .body-3iLsc4, .footer-1fjuF6, .headerNormal-1l1Znk, .root-1gCeng, .footer-2gL1pp, .profileBanner-33-uE1, .headerTop-2y3V6H{
   background-color: var(--background-tertiary) !important;
 }
 .wrapper-3D2qGf, .emptyCard-1RJw8n, .sidebar-2K8pFh, .root-1gCeng, .userPopout-3XzG_A, .footer-2gL1pp{
@@ -114,15 +114,6 @@
   padding-left: 24px;
   padding-right: 24px;
 }
-.icon-3cZ1F_ {
-  color: var(--text-normal);
-}
-/* minified search bar, credits to Nyria#3863 */
-.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
-.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
-.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
-.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
-
 .searchBar-6Kv8R2, .header-2V-4Sw{
   box-shadow: none;
 }
@@ -219,7 +210,36 @@
 }
 /* top bar icons */
 .icon-22AiRD{
-  color: var(--background-modifier-selected) !important;
+  color: var(--accent-color) !important;
+  width: 22px;
+  height: 22px;
+}
+/* credits to Nyria#3863 */
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):active .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);
+}
+.clickable-3rdHwn{
+  padding: 7px 7px 29px 7px;
+  background-color: var(--button-background);
+  margin: 1px;
+}
+.search-36MZv-{
+  padding: 6px 4.5px 6px 4.5px;
+  background-color: var(--button-background);
+  margin: 1px 8px 1px 1px;
+  order: -1;
+  border-radius: 10px;
+}
+.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb{
+
+}
+.toolbar-1t6TWx>:first-child{
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 1px;
+}
+.toolbar-1t6TWx>:last-child{
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 1px;
 }
 /* red things */
 .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS, .pruneLink-3V7wes{
@@ -355,20 +375,24 @@ svg.slider-TkfMQL svg {
   fill: var(--interactive-selected);
 }
 /* menus */
-.menu-3sdvDG{
+.menu-3sdvDG, .quickSelectPopout-X1hvgV{
   border-radius: 10px;
   border: 1px solid;
   border-color: var(--border-color);
 }
-.labelContainer-1BLJti{
+.labelContainer-1BLJti, .item-1tOPte{
   margin-right: 8px;
   border-radius: 8px;
 }
 .button-1ZiXG9.selected-LCBEAU>svg{
   color: var(--interactive-selected);
 }
+.quickSelectPopoutOption-opKBx9{
+  margin: 8px;
+  border-radius: 8px;
+}
 /* call */
-.colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.red-33-Lnk{
+.colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.red-33-Lnk, .centerButton-3CaNcJ{
   border-radius: 50px;
 }
 .wrapper-2qzCYF.minimum-28Z35l{
@@ -385,6 +409,15 @@ svg.slider-TkfMQL svg {
 .userInfoSection-2acyCx { margin-top: -21px; }
 .body-3ND3kc { height: calc(100% - 167px);
 }
+.listRow-hutiT_{
+  margin-right: 8px;
+  border-radius: 10px;
+  background-color: #ff0000;
+  color: #ff0000;
+}
+.actionButtons-14eAc_ .button-1YfofB{
+  border-right: 2px;
+}
 /* esc button */
 .keybind-KpFkfr{
   display: none;
@@ -394,4 +427,7 @@ svg.slider-TkfMQL svg {
 }
 .closeButton-1tv5uR > svg > path{
   fill: var(--accent-color);
+}
+.selected-aXhQR6 .layout-2DM8Md{
+  background-color: var(--background-modifier-selected);
 }
