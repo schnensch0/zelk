@@ -209,37 +209,46 @@
   background-color: var(--background-modifier-active) !important;
 }
 /* top bar icons */
-.icon-22AiRD{
+.toolbar-1t6TWx .icon-22AiRD{
   color: var(--accent-color) !important;
   width: 22px;
   height: 22px;
 }
+.toolbar-1t6TWx .icon-3cZ1F_{
+  color: var(--accent-color);
+}
+.toolbar-1t6TWx .iconContainer-O4O2CN{
+  width: 20px;
+  height: 20px;
+}
 /* credits to Nyria#3863 */
 .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
-.search-2oPWTC:not(.open-6_Y_aH):active .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s;
 }
-.clickable-3rdHwn{
+.toolbar-1t6TWx .clickable-3rdHwn{
   padding: 7px 7px 29px 7px;
   background-color: var(--button-background);
   margin: 1px;
 }
-.search-36MZv-{
+.search-36MZv-:not(.open-6_Y_aH){
   padding: 6px 4.5px 6px 4.5px;
   background-color: var(--button-background);
   margin: 1px 8px 1px 1px;
   order: -1;
   border-radius: 10px;
 }
-.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb{
-
+.searchBar-3dMhjb, .search-2oPWTC{
+  background-color: var(--button-background);
 }
-.toolbar-1t6TWx>:first-child{
+.toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g){
   border-radius: 10px 0px 0px 10px;
-  margin-right: 1px;
+}
+.inviteToolbar-3F-l2g>div{
+  padding: 7px 7px 29px 10px !important;
+  border-radius: 10px 0px 0px 10px;
 }
 .toolbar-1t6TWx>:last-child{
   border-radius: 0px 10px 10px 0px;
-  margin-left: 1px;
 }
 /* red things */
 .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS, .pruneLink-3V7wes{
