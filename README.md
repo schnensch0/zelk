@@ -1,12 +1,15 @@
 # Zelk
 `0.1 ALPHA`
 
-Zelk is a [Powercord](https://powercord.dev) theme trying to mimic the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark) GTK theme.
+Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark) GTK theme.
 
 ### INSTALLATION:
 
+## Powercord
 `git clone https://github.com/schnensch0/zelk.git`
-**Enable Custom Profiles Premium in your Experiments for the best experience**
+
+## Better Discord
+`soon™`
 
 ### TO DO:
 * add server
