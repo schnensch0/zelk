@@ -1,4 +1,5 @@
-# Zelk
+<img src="https://github.com/schnensch0/zelk/raw/main/preview/logo.png" alt="zelk" width="150"/>
+
 `0.1`
 
 Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark) GTK theme.
