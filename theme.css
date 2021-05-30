@@ -119,9 +119,12 @@
   color: var(--interactive-selected);
 }
 /* checkboxes */
-.checkbox-3kaeSU>div{
-  background-color: var(--accent-color);
-  color: var(--interactive-selected);
+.checkboxElement-1qV33p:checked+span{
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+}
+.checkboxElement-1qV33p:checked+span::after{
+  border-color: var(--interactive-selected) !important;
 }
 /* explore tab */
 .categoryItem-1QIroW{
@@ -166,7 +169,7 @@
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active{color: var(--button-destructive-active) !important;background-color: var(--background-modifier-active) !important;}
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active::before, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active::before{--settings-icon-color: var(--button-destructive-active);
 }
-.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-list{
+.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-list, .membershipDialogHouse2-35h9SY{
   border-radius: 10px;
 }
 .avatarUploaderInner-3UNxY3{
@@ -201,10 +204,10 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
   fill: var(--interactive-selected);
 }
 /* menus */
-.menu-3sdvDG, .quickSelectPopout-X1hvgV{
-  border-radius: 10px;
-  border: 1px solid;
-  border-color: var(--border-color);
+.menu-3sdvDG, .quickSelectPopout-X1hvgV, .bd-select-options{
+  border-radius: 10px !important;
+  border: 1px solid !important;
+  border-color: var(--border-color) !important;
 }
 .labelContainer-1BLJti, .item-1tOPte{
   margin-right: 8px;
@@ -213,7 +216,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 .button-1ZiXG9.selected-LCBEAU>svg{
   color: var(--interactive-selected);
 }
-.quickSelectPopoutOption-opKBx9{
+.quickSelectPopoutOption-opKBx9, .bd-select .bd-select-option{
   margin: 8px;
   border-radius: 8px;
 }
@@ -305,6 +308,22 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
   border-radius: 10px;
   background-color: var(--background-secondary);
 }
+/* dividers*/
+.divider-JfaTT5, .peopleListItem-2nzedh{
+  border-top: thin solid var(--background-accent);
+}
+.tabBody-3YRQ8W:before, {
+  display: none;
+}
+.searchBar-6Kv8R2, .header-2V-4Sw, .headerBarContainer-31FKNA{
+  box-shadow: none;
+}
+.separator-2I32lJ{
+  border-bottom: thin solid transparent;
+}
+.guildSeparator-33mFX6{
+  background-color: transparent;
+}
 
 /* CLEAN THIS SHIT UP vv */
 .members-1998pB, .members-1998pB>div, .container-1r6BKw.themed-ANHk51, .container-1taM1r, .searchBar-6Kv8R2, .nowPlayingColumn-2sl4cE, .container-1D34oG, .contentRegionScroller-26nc1e, .privateChannels-1nO12o, .searchBar-6Kv8R2, .chat-3bRxxu, .container-3w7J-x, .homeWrapperNormal-2KSUEa, .container-lRFx4q, .headerNormal-T_seeN, .headerNormal-1l1Znk, .root-1gCeng, .footer-2gL1pp, .profileBanner-33-uE1, .headerTop-2y3V6H{
@@ -326,23 +345,13 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 ::-webkit-scrollbar{
     display: none;
 }
-/* dividers*/
-.divider-JfaTT5, .peopleListItem-2nzedh{
-  border-top: thin solid var(--background-accent);
-}
 .chatContent-a9vAAp, .scroller-RmtA4e{
   background-color: var(--background-primary);
-}
-.separator-2I32lJ{
-  border-bottom: thin solid transparent;
-}
-.guildSeparator-33mFX6{
-  background-color: transparent;
 }
 .children-19S4PO:after{
   background: transparent !important;
 }
-.divider-3FBTu8, .tabBody-3YRQ8W:before, .content-yTz4x3:before, .footer-1fjuF6{
+.divider-3FBTu8, .content-yTz4x3:before, .footer-1fjuF6{
   display: none;
 }
 .sansAttachButton-td2irx{
@@ -351,9 +360,6 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 .form-2fGMdU{
   padding-left: 24px;
   padding-right: 24px;
-}
-.searchBar-6Kv8R2, .header-2V-4Sw{
-  box-shadow: none;
 }
 .wrapper-2jXpOf{
   margin-right: 10px;
