@@ -2,7 +2,7 @@
     "name": "Zelk",
     "version": "0.1",
     "license": "MIT",
-    "theme": "theme.css",
+    "theme": "zelk.css",
     "author": "schnensch",
     "description": "Round with Zorin Blue Dark colors"
 }
