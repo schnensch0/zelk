@@ -11,6 +11,9 @@
 .container-2lgZY8{
   margin-bottom: 10px;
 }
+.scroller-9moviB{
+  margin-right: 10px;
+}
 /* top bar icons */
 .toolbar-1t6TWx .icon-22AiRD{
   color: var(--accent-color) !important;
@@ -84,9 +87,15 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:active{
   background-color: var(--button-background-active);
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY:active, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookFilled-1Gx00P.colorGreen-29iAKY, .topPill-30KHOu .item-PXvHYJ[aria-label='Add Friend']{
-  background-color: var(--background-modifier-selected) !important;
+.lookFilled-1Gx00P.colorGreen-29iAKY, .topPill-30KHOu .item-PXvHYJ[aria-label='Add Friend']{
+  background-color: var(--button-accent) !important;
   color: var(--interactive-selected) !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
+  background-color: var(--button-accent-hover);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:active{
+  background-color: var(--button-accent-active);
 }
 .lookFilled-1Gx00P.colorRed-1TFJan, .bd-button.bd-button-danger{
   background-color: var(--button-destructive);
@@ -95,10 +104,10 @@
   border-color: var(--button-destructive);
   background-color: #FB7C7C38;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan:hover, .lookOutlined-3sRXeN.colorRed-1TFJan:hover{
+.lookFilled-1Gx00P.colorRed-1TFJan:hover, .lookOutlined-3sRXeN.colorRed-1TFJan:hover, .bd-button.bd-button-danger:hover{
   background-color: var(--button-destructive-hover);
 }
-.lookFilled-1Gx00P.colorRed-1TFJan:active, .lookOutlined-3sRXeN.colorRed-1TFJan:active{
+.lookFilled-1Gx00P.colorRed-1TFJan:active, .lookOutlined-3sRXeN.colorRed-1TFJan:active, .bd-button.bd-button-danger:active{
   background-color: var(--button-destructive-active);
 }
 /* bd buttons */
@@ -114,9 +123,19 @@
 .bd-controls>.bd-addon-button:last-of-type{
   border-radius: 0px 8px 8px 0px;
 }
-.bd-addon-views .bd-view-button.selected, .bd-button{
-  background-color: var(--background-modifier-selected);
+.bd-addon-views .bd-view-button.selected{
+  background-color: var(--button-accent);
   color: var(--interactive-selected);
+}
+.bd-button{
+  background-color: var(--button-accent);
+  color: var(--interactive-selected);
+}
+.bd-button:hover{
+  background-color: var(--button-accent-hover);
+}
+.bd-button:active{
+  background-color: var(--button-accent-active);
 }
 /* checkboxes */
 .checkboxElement-1qV33p:checked+span{

@@ -61,6 +61,9 @@
   --button-background: #252E32;
   --button-background-hover: #323d42;
   --button-background-active: #4a5b63;
+  --button-accent: var(--accent-color);
+  --button-accent-hover: #d6f1fd;
+  --button-accent-active: #95d2f0;
   --button-destructive: #FB7C7C;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
