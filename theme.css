@@ -103,7 +103,10 @@
 }
 /* bd buttons */
 .bd-button, .bd-view-button{
-  border-radius: 10px;
+  border-radius: 8px;
+}
+.bd-addon-button>svg, .bd-view-button.selected>svg{
+  fill: var(--interactive-selected) !important;
 }
 .bd-controls>.bd-addon-button:first-of-type{
   border-radius: 8px 0px 0px 8px;
@@ -116,7 +119,7 @@
   color: var(--interactive-selected);
 }
 /* checkboxes */
-.checkbox-3kaeSU{
+.checkbox-3kaeSU>div{
   background-color: var(--accent-color);
   color: var(--interactive-selected);
 }
@@ -163,7 +166,7 @@
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active{color: var(--button-destructive-active) !important;background-color: var(--background-modifier-active) !important;}
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active::before, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active::before{--settings-icon-color: var(--button-destructive-active);
 }
-.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe{
+.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-list{
   border-radius: 10px;
 }
 .avatarUploaderInner-3UNxY3{
