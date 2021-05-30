@@ -211,10 +211,10 @@
   background-color: var(--button-background-active);
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:active, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookFilled-1Gx00P.colorGreen-29iAKY, .topPill-30KHOu .item-PXvHYJ[aria-label='Add Friend']{
-  background-color: var(--background-modifier-selected);
-  color: var(--interactive-selected);
+  background-color: var(--background-modifier-selected) !important;
+  color: var(--interactive-selected) !important;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan{
+.lookFilled-1Gx00P.colorRed-1TFJan, .bd-button.bd-button-danger{
   background-color: var(--button-destructive);
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan{
@@ -226,6 +226,25 @@
 }
 .lookFilled-1Gx00P.colorRed-1TFJan:active, .lookOutlined-3sRXeN.colorRed-1TFJan:active{
   background-color: var(--button-destructive-active);
+}
+/* bd buttons */
+.bd-button, .bd-view-button{
+  border-radius: 10px;
+}
+.bd-controls>.bd-addon-button:first-of-type{
+  border-radius: 8px 0px 0px 8px;
+}
+.bd-controls>.bd-addon-button:last-of-type{
+  border-radius: 0px 8px 8px 0px;
+}
+.bd-addon-views .bd-view-button.selected, .bd-button{
+  background-color: var(--background-modifier-selected);
+  color: var(--interactive-selected);
+}
+/* checkboxes */
+.checkbox-3kaeSU{
+  background-color: var(--accent-color);
+  color: var(--interactive-selected);
 }
 /* explore tab */
 .categoryItem-1QIroW{
@@ -270,10 +289,10 @@
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active{color: var(--button-destructive-active) !important;background-color: var(--background-modifier-active) !important;}
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active::before, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active::before{--settings-icon-color: var(--button-destructive-active);
 }
-.powercord-product, .container-cMG81i, .css-gvi9bl-control, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe{
+.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe{
   border-radius: 10px;
 }
-.css-gvi9bl-control, .avatarUploaderInner-3UNxY3{
+.avatarUploaderInner-3UNxY3{
   background-color: var(--background-secondary);
 }
 /* sliders */
@@ -292,16 +311,16 @@
   border-color: var(--background-modifier-selected);
 }
 /* switches */
-.container-3auIfb:not([style*="125"]) {
+.container-3auIfb:not([style*="125"]), .bd-switch-checked .bd-switch-body{
   background-color: var(--background-modifier-selected) !important;
 }
-.container-3auIfb{
+.container-3auIfb, .bd-switch-body{
   background-color: #3d4c53 !important;
 }
-svg.slider-TkfMQL svg {
+svg.slider-TkfMQL svg, .bd-switch-slider>svg{
   display: none;
 }
-.container-3auIfb>svg>rect{
+.container-3auIfb>svg>rect, .bd-switch-handle{
   fill: var(--interactive-selected);
 }
 /* menus */
@@ -403,4 +422,9 @@ svg.slider-TkfMQL svg {
 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ{
   background-color: var(--tab-selected) !important;
   color: var(--text-normal);
+}
+/* drop downs */
+.select-2TCrqx, .bd-select{
+  border-radius: 10px;
+  background-color: var(--background-secondary);
 }
