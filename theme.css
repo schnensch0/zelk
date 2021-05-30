@@ -181,7 +181,7 @@
 }
 /* red things */
 .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS, .pruneLink-3V7wes, .side-8zPYf6 .item-PXvHYJ[aria-controls='logout-tab']{
-  color: var(--button-destructive);
+  color: var(--button-destructive) !important;
 }
 .colorDanger-2qLCe1:hover, .colorDanger-2qLCe1 .checkbox-3s5GYZ:hover, .colorDanger-2qLCe1 .radioSelection-1HmrQS:hover{
   color: var(--button-destructive-hover);
@@ -259,7 +259,7 @@
 .radioBar-bMNUI-{
   border-left: transparent;
 }
-.userSettingsSecurity-3IYeMF .lockIcon-2Hj8Tq{
+.userSettingsSecurity-3IYeMF .lockIcon-2Hj8Tq, .avatarUploaderIndicator-2G-aIZ{
   display: none;
 }
 .theme-dark{--settings-logout: var(--button-destructive);
