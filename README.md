@@ -1,11 +1,10 @@
-<img src="https://github.com/schnensch0/zelk/raw/main/preview/logo.png" alt="zelk" width="150"/>
+# Zelk
 
 `0.1`
 
 Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark) GTK theme.
 
 ### INSTALLATION
-
 #### Powercord
 `git clone https://github.com/schnensch0/zelk.git`
 
@@ -13,14 +12,8 @@ Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/Zor
 `soon™`
 for now you can download [this](https://github.com/schnensch0/zelk/raw/main/zelkBD.theme.css)
 
-### PREVIEW
-
-Chat
-![Chat](https://github.com/schnensch0/zelk/raw/main/preview/server.png)
-Settings
-![Preview](https://github.com/schnensch0/zelk/raw/main/preview/settings.png)
-Profile
-![Preview](https://github.com/schnensch0/zelk/raw/main/preview/profile.png)
+![Mockup](https://raw.githubusercontent.com/schnensch0/zelk/main/preview/mockup.png)
+for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/preview)
 
 ### TO DO
 * CLEAN UP THIS MESS
