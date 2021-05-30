@@ -9,6 +9,9 @@
   margin-left: 10px;
   background-color: var(--background-primary) !important;
 }
+.scroller-RmtA4e{
+  background-color: var(--background-primary);
+}
 .container-2lgZY8{
   margin-bottom: 10px;
 }
@@ -270,6 +273,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 }
 .setIdentityLink-OpBDR6{
   display: none;
+}
+.body-3iLsc4{
+  background-color: var(--background-tertiary);
 }
 /* better roles | thanks to Bowser65#1337*/
 .role-2irmRk {
