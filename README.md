@@ -11,6 +11,7 @@ Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/Zor
 
 #### Better Discord
 `soon™`
+for now you can download [this](https://github.com/schnensch0/zelk/raw/main/zelkBD.theme.css)
 
 ### PREVIEW
 
