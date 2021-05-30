@@ -1,5 +1,5 @@
 /* imports */
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://raw.githack.com/schnensch/zelk/main/FullyThemedDiscord.css);
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/LightModeWarning.css);
 @import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
 
@@ -46,6 +46,7 @@
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
   --tab-selected: #323d42;
+  --channelltextarea-background: var(--background-tertiary);
 
 /* buttons */
   --button-background: #252E32;
