@@ -12,9 +12,9 @@ Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/Zor
 `soon™`
 
 ### TO DO:
+* CLEAN UP THIS MESS
 * add server
 * more variables & customisation
-* clean up
 * font
 * icons?
 * animations?????????
