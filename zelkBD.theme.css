@@ -6,8 +6,8 @@
  * @authorLink https://github.com/schnensch0
  * @source https://github.com/schnensch0/zelk
  */
- 
- 
+
+
 /* imports */
 /* credits to Leeprky#2063 */
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
@@ -345,7 +345,7 @@
 .powercord-product, .container-cMG81i, .css-gvi9bl-control, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2{
   border-radius: 10px;
 }
-.css-gvi9bl-control{
+.css-gvi9bl-control, .avatarUploaderInner-3UNxY3{
   background-color: var(--background-secondary);
 }
 /* sliders */
