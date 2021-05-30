@@ -3,7 +3,7 @@
 
 Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark) GTK theme.
 
-### INSTALLATION:
+### INSTALLATION
 
 #### Powercord
 `git clone https://github.com/schnensch0/zelk.git`
@@ -20,7 +20,7 @@ Settings
 Profile
 ![Preview](https://github.com/schnensch0/zelk/raw/main/preview/profile.png)
 
-### TO DO:
+### TO DO
 * CLEAN UP THIS MESS
 * font?
 * icons?
