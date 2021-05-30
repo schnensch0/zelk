@@ -46,7 +46,7 @@
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
   --tab-selected: #323d42;
-  --channelltextarea-background: var(--background-tertiary);
+  --channeltextarea-background: var(--background-tertiary);
 
 /* buttons */
   --button-background: #252E32;

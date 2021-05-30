@@ -3,7 +3,7 @@
 /* background */
 .tabBody-3YRQ8W{
     background-color: var(--background-tertiary);
-  }
+}
 .peopleColumn-29fq28, .chatContent-a9vAAp, .pageWrapper-1PgVDX, .scroller-9moviB, .stageSection-3mAD8V{
   border-radius: 10px;
   margin-left: 10px;
@@ -13,6 +13,9 @@
 }
 .scroller-9moviB{
   margin-right: 10px;
+}
+.chatContent-a9vAAp, .scroller-RmtA4e, .peopleColumn-29fq28{
+  background-color: var(--background-primary);
 }
 /* top bar icons */
 .toolbar-1t6TWx .icon-22AiRD{
@@ -331,7 +334,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 .divider-JfaTT5, .peopleListItem-2nzedh{
   border-top: thin solid var(--background-accent);
 }
-.tabBody-3YRQ8W:before, {
+.tabBody-3YRQ8W::before{
   display: none;
 }
 .searchBar-6Kv8R2, .header-2V-4Sw, .headerBarContainer-31FKNA{
@@ -363,9 +366,6 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 }
 ::-webkit-scrollbar{
     display: none;
-}
-.chatContent-a9vAAp, .scroller-RmtA4e{
-  background-color: var(--background-primary);
 }
 .children-19S4PO:after{
   background: transparent !important;
