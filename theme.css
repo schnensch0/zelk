@@ -235,15 +235,6 @@
 .sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov{
   background-color: var(--background-tertiary);
 }
-.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ .roleName-2IkRdr{
-  color: var(--interactive-selected);
-}
-.top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ{
-  background-color: var(--background-modifier-selected);
-  height: 20px;
-  padding: 5px 10px 25px 10px;
-  margin-top: 5px;
-}
 .sidebar-CFHs9e{
   width: 290px;
   padding-right: 40px;
@@ -351,6 +342,30 @@ svg.slider-TkfMQL svg {
 .actionButtons-14eAc_ .button-1YfofB{
   border-right: 2px;
 }
+.setIdentityLink-OpBDR6{
+  display: none;
+}
+/* better roles | thanks to Bowser65#1337*/
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 5px;
+}
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: .2;
+  pointer-events: none;
+}
+.footer-1fjuF6 {
+  border-top: none;
+}
 /* esc button */
 .keybind-KpFkfr{
   display: none;
@@ -367,7 +382,6 @@ svg.slider-TkfMQL svg {
 /* tab bar */
 .topPill-30KHOu{
   height: 38px;
-  margin-left: 10px;
   border-radius: 8px;
 }
 .top-28JiJ- .item-PXvHYJ{
