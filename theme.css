@@ -7,15 +7,13 @@
 .peopleColumn-29fq28, .chatContent-a9vAAp, .pageWrapper-1PgVDX, .scroller-9moviB, .stageSection-3mAD8V{
   border-radius: 10px;
   margin-left: 10px;
+  background-color: var(--background-primary) !important;
 }
 .container-2lgZY8{
   margin-bottom: 10px;
 }
 .scroller-9moviB{
   margin-right: 10px;
-}
-.chatContent-a9vAAp, .scroller-RmtA4e, .peopleColumn-29fq28{
-  background-color: var(--background-primary);
 }
 /* top bar icons */
 .toolbar-1t6TWx .icon-22AiRD{
@@ -152,6 +150,9 @@
 .categoryItem-1QIroW{
   margin-right: 8px;
 }
+.guildList-3cJX3d{
+  background-color: var(--background-tertiary);
+}
 /* spotify */
 .button-14-BFJ.enabled-2cQ-u7:hover .contents-18-Yxp>svg{
   color: var(--interactive-selected) !important;
@@ -191,8 +192,8 @@
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active{color: var(--button-destructive-active) !important;background-color: var(--background-modifier-active) !important;}
 .sidebarRegion-VFTUkN > div > nav > div > div:nth-child(48):active::before, .layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21):active::before{--settings-icon-color: var(--button-destructive-active);
 }
-.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-list, .membershipDialogHouse2-35h9SY{
-  border-radius: 10px;
+.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY{
+  border-radius: 10px !important;
 }
 .avatarUploaderInner-3UNxY3{
   background-color: var(--background-secondary);
@@ -345,6 +346,15 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg{
 }
 .guildSeparator-33mFX6{
   background-color: transparent;
+}
+/* server list */
+.circleIconButton-1QV--U{
+  color: var(--accent-color);
+  background-color: var(--button-background);
+}
+.circleIconButton-1QV--U.selected-1JjBPm{
+  color: var(--interactive-selected);
+  background-color: var(--accent-color);
 }
 
 /* CLEAN THIS SHIT UP vv */
