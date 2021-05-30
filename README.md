@@ -5,10 +5,10 @@ Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/Zor
 
 ### INSTALLATION:
 
-## Powercord
+#### Powercord
 `git clone https://github.com/schnensch0/zelk.git`
 
-## Better Discord
+#### Better Discord
 `soon™`
 
 ### TO DO:
