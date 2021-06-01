@@ -1,60 +1,61 @@
 /* imports */
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/LightModeWarning.css);
 @import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
 
+/* basic variables */
 .theme-dark {
-  --accent-color: #BDE6FB;
- /* bg colours */
-  --background-primary: #131719;
-  --background-primary-alt: #131719;
-  --background-secondary: #131719;
-  --background-secondary-alt: #131719;
-  --background-tertiary: #191F22;
-  --background-accent: #252e32;
-  --background-accent-gradient: #191F22;
-  --background-floating: #131719;
-  --background-mentioned: #BDE6FB10;
-  --background-mentioned-hover: #BDE6FB15;
+  --accent-color: #bde6fb;
 
+  --background-1: #131719;
+  --background-2: #191f22;
+  --background-accent: #252e32;
+
+  --border-color: #1e262a;
+}
+
+/* advanced variables */
+.theme-dark {
+ /* background */
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-1);
+  --background-secondary-alt: var(--background-1);
+  --background-tertiary: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --background-mentioned: #bde6fb10;
+  --background-mentioned-hover: #bde6fb15;
  /* modifier colours */
   --background-modifier-hover: #21292c;
   --background-modifier-active: #2b3437;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-
 /* text colors */
   --text-normal: var(--accent-color);
   --text-positive: var(--accent-color);
-  --text-muted: #6D8692;
-  --text-link: #EDF8FE;
-
+  --text-muted: #6d8692;
+  --text-link: #edf8fe;
   --interactive-selected: var(--background-primary);
   --interactive-active: #c1e7fd;
   --interactive-normal: var(--text-normal);
-
   --channels-default: var(--text-muted);
-
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
-
 /* more colors */
   --settings-icon-color: #8caaba;
-  --border-color: #1e262a;
   --radio-bar-accent-color: transparent;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
-  --tab-selected: #323d42;
+  --tab-selected: #323d42; /* unused */
   --channeltextarea-background: var(--background-tertiary);
-
 /* buttons */
-  --button-background: #252E32;
+  --button-background: #252e32;
   --button-background-hover: #323d42;
   --button-background-active: #4a5b63;
   --button-accent: var(--accent-color);
   --button-accent-hover: #d6f1fd;
   --button-accent-active: #95d2f0;
-  --button-destructive: #FB7C7C;
+  --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
