@@ -1,8 +1,8 @@
 # Zelk
 
-`0.2`
+`1.0`
 
-Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark) GTK theme.
+Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark)/[Light](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Light) GTK theme.
 
 ### INSTALLATION
 #### Powercord
@@ -16,7 +16,6 @@ for now you can download [this](https://github.com/schnensch0/zelk/raw/main/zelk
 for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/preview)
 
 ### TO DO
-* light mode
 * font?
 * icons?
 * animations?????????

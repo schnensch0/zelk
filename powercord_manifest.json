@@ -1,8 +1,8 @@
 {
     "name": "Zelk",
-    "version": "0.2",
+    "version": "1.0",
     "license": "MIT",
     "theme": "zelk.css",
     "author": "schnensch",
-    "description": "a theme inspired by zorin blue dark"
+    "description": "a theme inspired by zorin blue"
 }

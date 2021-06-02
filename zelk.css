@@ -1,8 +1,8 @@
 /* imports */
 @import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
 
-/* basic variables */
-.theme-dark {
+/* dark mode */
+ .theme-dark {
   --accent-color: #bde6fb;
 
   --background-1: #131719;
@@ -10,11 +10,10 @@
   --background-accent: #252e32;
 
   --border-color: #1e262a;
-}
-
+ }
 /* advanced variables */
 .theme-dark {
- /* background */
+/* background */
   --background-primary: var(--background-1);
   --background-primary-alt: var(--background-1);
   --background-secondary: var(--background-1);
@@ -24,7 +23,7 @@
   --background-floating: var(--background-1);
   --background-mentioned: #bde6fb10;
   --background-mentioned-hover: #bde6fb15;
- /* modifier colours */
+/* modifier colours */
   --background-modifier-hover: #21292c;
   --background-modifier-active: #2b3437;
   --background-modifier-selected: var(--accent-color);
@@ -46,12 +45,74 @@
   --radio-bar-accent-color: transparent;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
-  --tab-selected: #323d42; /* unused */
+  --tab-selected: #323d42;
   --channeltextarea-background: var(--background-tertiary);
+  --switch: #3d4c53;
+  --activity-card-background: var(--background-1);
 /* buttons */
   --button-background: #252e32;
   --button-background-hover: #323d42;
   --button-background-active: #4a5b63;
+  --button-accent: var(--accent-color);
+  --button-accent-hover: #d6f1fd;
+  --button-accent-active: #95d2f0;
+  --button-destructive: #fb7c7c;
+  --button-destructive-hover: #ff929b;
+  --button-destructive-active: #fa4a4a;
+ }
+
+/* light mode */
+.theme-light {
+  --accent-color: #22c5fd;
+
+  --background-1: #e4e8ee;
+  --background-2: #f5f7fa;
+  --background-accent: #e4e8ee;
+
+  --border-color: #e4e8ee;
+  }
+/* advanced variables */
+.theme-light {
+/* background */
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-1);
+  --background-secondary-alt: var(--background-1);
+  --background-tertiary: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --background-mentioned: #22c5fd10;
+  --background-mentioned-hover: #22c5fd15;
+  /* modifier colours */
+  --background-modifier-hover: var(--background-accent);
+  --background-modifier-active: var(--background-accent);
+  --background-modifier-selected: var(--accent-color);
+  --background-modifier-accent: transparent;
+  --background-message-hover: transparent;
+/* text colors */
+  --text-normal: #123354;
+  --text-positive: #123354;
+  --text-muted: #8495a7;
+  --text-link: #15a6f0;
+  --interactive-selected: var(--background-primary);
+  --interactive-active: var(--text-normal);
+  --interactive-normal: var(--text-normal);
+  --channels-default: var(--text-normal);
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+/* more colors */
+  --settings-icon-color: #566e86;
+  --radio-bar-accent-color: transparent;
+  --control-brand-foreground: var(--accent-color);
+  --info-warning-foreground: var(--accent-color);
+  --tab-selected: #c5cfd7;
+  --channeltextarea-background: var(--background-tertiary);
+  --switch: #c8d0d9;
+  --activity-card-background: var(--background-1);
+/* buttons */
+  --button-background: #e4e8ee;
+  --button-background-hover: #d3dae1;
+  --button-background-active: #c8d0d9;
   --button-accent: var(--accent-color);
   --button-accent-hover: #d6f1fd;
   --button-accent-active: #95d2f0;
