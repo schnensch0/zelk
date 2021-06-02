@@ -1,5 +1,4 @@
 /* Zelk 0.2 */
-
 /* background */
 .tabBody-3YRQ8W, .chat-3bRxxu, .container-3w7J-x, .container-lRFx4q, .privateChannels-1nO12o, .homeWrapperNormal-2KSUEa {
   background-color: var(--background-tertiary);
@@ -394,7 +393,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .actionButtons-14eAc_ .button-1YfofB {
   border-right: 2px;
 }
-.body-3iLsc4, .headerFill-adLl4x, .topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P, .profileBanner-33-uE1, .avatar-22FtUu, .headerTop-2y3V6H {
+.body-3iLsc4, .headerFill-adLl4x, .topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P, .profileBanner-33-uE1, .avatar-22FtUu, .headerTop-2y3V6H, .headerTop-2cWpdB {
   background-color: var(--background-tertiary) !important;
 }
 .lookInverted-2D7oAl .contents-18-Yxp {
@@ -456,10 +455,15 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   height: 30px;
   border: 0;
 }
-.topPill-30KHOu .item-PXvHYJ {
+.container-1r6BKw .topPill-30KHOu .item-PXvHYJ {
   border-radius: 8px;
   margin-top: 4px;
   height: 30px;
+}
+.powercord-entities-manage-tabs .topPill-30KHOu .item-PXvHYJ {
+  border-radius: 8px;
+  height: 30px;
+  padding-top: 5px;
 }
 .contentRegion-3nDuYy .top-28JiJ- .item-PXvHYJ {
   border-radius: 8px;
