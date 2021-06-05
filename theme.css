@@ -157,7 +157,7 @@
 .theme-light .lookOutlined-3sRXeN.colorRed-1TFJan:active, .theme-light .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
   color: var(--background-secondary);
 }
-.button-38aScr {
+.button-38aScr, .phoneField-38N1bJ .countryButton-3xq3Ts {
   border-radius: 8px;
 }
 /* bd buttons */
@@ -283,8 +283,8 @@
 .background-1QDuV2 .lookFilled-1Gx00P.colorGrey-2DXtkV {
   color: var(--text-normal);
 }
-.container-2_Tvc_ {
-  display: none;
+.card-FDVird:before {
+  background-color: var(--background-modifier-hover) !important;
 }
 /* sliders */
 .barFill-23-gu- {
@@ -315,13 +315,13 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   fill: var(--interactive-selected);
 }
 /* menus */
-.menu-3sdvDG, .quickSelectPopout-X1hvgV, .bd-select-options, .css-3vaxre-menu {
+.menu-3sdvDG, .quickSelectPopout-X1hvgV, .bd-select-options, .css-3vaxre-menu, .phoneFieldPopout-7PzjOO, .addGamePopout-2RY8Ju {
   border-radius: 10px !important;
   border: 1px solid !important;
   border-color: var(--border-color) !important;
 }
-.css-3vaxre-menu {
-  background-color: var(--background-tertiary);
+.css-3vaxre-menu, .phoneFieldPopout-7PzjOO, .addGamePopout-2RY8Ju {
+  background-color: var(--background-tertiary) !important;
 }
 .labelContainer-1BLJti, .item-1tOPte {
   margin-right: 8px;
