@@ -11,6 +11,9 @@ Zelk is a smooth discord theme inspired by the [Zorin Blue Dark](https://github.
 #### Better Discord
 [Download](https://betterdiscord.app/Download?id=300)
 
+#### Goosemod
+Search for **Zelk** in the Themes section of your settings
+
 ![Mockup](https://raw.githubusercontent.com/schnensch0/zelk/main/preview/mockup.png)
 for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/preview)
 
