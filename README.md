@@ -9,8 +9,7 @@ Zelk is a discord theme inspired by the [Zorin Blue Dark](https://github.com/Zor
 `git clone https://github.com/schnensch0/zelk.git`
 
 #### Better Discord
-`soon™`
-for now you can download [this](https://github.com/schnensch0/zelk/raw/main/zelkBD.theme.css)
+[Download](https://betterdiscord.app/Download?id=300)
 
 ![Mockup](https://raw.githubusercontent.com/schnensch0/zelk/main/preview/mockup.png)
 for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/preview)
