@@ -321,7 +321,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   border-color: var(--border-color) !important;
 }
 .css-3vaxre-menu, .phoneFieldPopout-7PzjOO, .addGamePopout-2RY8Ju {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-secondary) !important;
 }
 .labelContainer-1BLJti, .item-1tOPte {
   margin-right: 8px;
@@ -573,8 +573,17 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .form-2fGMdU {
   padding: 0 24px 0 24px;
 }
-.markup-2BOw-j code {
+.markup-2BOw-j code, .categoryHeader-O1zU94 {
   background-color: var(--background-tertiary);
+  border-radius: 8px;
+}
+.autocomplete-3l_oCd, .autocomplete-1vrmpx {
+  background-color: var(--background-secondary) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+.selected-1Tbx07 {
+  background-color: var(--background-modifier-hover) !important;
   border-radius: 8px;
 }
 /* channel list */
