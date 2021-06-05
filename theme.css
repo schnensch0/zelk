@@ -79,7 +79,7 @@
   padding: 7px 7px 29px 10px !important;
   border-radius: 10px 0px 0px 10px;
 }
-.toolbar-1t6TWx>:last-child>div {
+.toolbar-1t6TWx>:last-child>div, .toolbar-1t6TWx>:last-child {
   border-radius: 0px 10px 10px 0px;
 }
 /* red things */
@@ -125,9 +125,10 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:active. .lookFilled-1Gx00P.colorGrey-2DXtkV:active, .lookFilled-1Gx00P.colorPrimary-3b3xI6:active {
   background-color: var(--button-background-active) !important;
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY, .topPill-30KHOu .item-PXvHYJ[aria-label='Add Friend'] {
+.lookFilled-1Gx00P.colorGreen-29iAKY, .topPill-30KHOu .item-PXvHYJ[aria-label='Add Friend'], .lookOutlined-3sRXeN.colorGreen-29iAKY {
   background-color: var(--button-accent) !important;
   color: var(--interactive-selected) !important;
+  border: none;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
   background-color: var(--button-accent-hover);
@@ -273,7 +274,7 @@
 .powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq {
   border-radius: 10px !important;
 }
-.avatarUploaderInner-3UNxY3, .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o {
+.avatarUploaderInner-3UNxY3, .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to {
   background-color: var(--background-secondary) !important;
 }
 .item-26Dhrx[aria-checked=true] {
@@ -573,7 +574,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .form-2fGMdU {
   padding: 0 24px 0 24px;
 }
-.markup-2BOw-j code, .categoryHeader-O1zU94 {
+.markup-2BOw-j code {
   background-color: var(--background-tertiary);
   border-radius: 8px;
 }
@@ -585,6 +586,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .selected-1Tbx07 {
   background-color: var(--background-modifier-hover) !important;
   border-radius: 8px;
+}
+.categoryHeader-O1zU94, .wrapper-2Gsate {
+  background-color: var(--background-secondary);
 }
 /* channel list */
 .sidebar-2K8pFh {
