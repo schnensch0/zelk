@@ -14,7 +14,7 @@
 .container-2lgZY8 {
   margin-bottom: 10px;
 }
-.scroller-9moviB {
+.scroller-9moviB, .content-yTz4x3 {
   margin-right: 10px;
 }
 /* top bar icons */
@@ -51,9 +51,16 @@
   width: 240px;
   transition: 0.25s;
 }
-.toolbar-1t6TWx .clickable-3rdHwn {
+.toolbar-1t6TWx .clickable-3rdHwn:not([aria-label="Threads"]) {
   padding: 7px 7px 29px 7px;
   background-color: var(--button-background);
+  margin: 1px;
+}
+.toolbar-1t6TWx .clickable-3rdHwn[aria-label="Threads"] {
+  border-left: 7px solid var(--button-background);
+  border-top: 18px solid var(--button-background);
+  border-right: 7px solid var(--button-background);
+  border-bottom: 18px solid var(--button-background);
   margin: 1px;
 }
 .topControls-KKImPZ.controlSection-2h3cS0>div>div>section>.toolbar-1t6TWx>.button-1xaXFt.iconWrapper-2OrFZ1.clickable-3rdHwn {
@@ -71,6 +78,9 @@
 }
 .searchBar-3dMhjb, .search-2oPWTC {
   background-color: var(--button-background);
+}
+.threadSidebar-1o3BTy>section>.toolbar-1t6TWx .clickable-3rdHwn {
+  border-radius: 10px;
 }
 .toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g) {
   border-radius: 10px 0px 0px 10px;
@@ -161,6 +171,15 @@
 .button-38aScr, .phoneField-38N1bJ .countryButton-3xq3Ts {
   border-radius: 8px;
 }
+.colorable-1bkp8v.red-33-Lnk {
+  background: var(--button-destructive);
+}
+.colorable-1bkp8v.red-33-Lnk:hover {
+  background: var(--button-destructive-hover);
+}
+.colorable-1bkp8v.red-33-Lnk:active {
+  background: var(--button-destructive-active);
+}
 /* bd buttons */
 .bd-button, .bd-view-button {
   border-radius: 8px;
@@ -196,6 +215,7 @@
 .checkbox-1ix_J3 {
   background-color: var(--switch);
   border: none;
+  border-radius: 4px;
 }
 .checkboxElement-1qV33p:checked+span::after {
   border-color: var(--interactive-selected) !important;
@@ -271,7 +291,7 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="DELETE-tab"]:active::before, .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]:active::before {
   --settings-icon-color: var(--button-destructive-active);
 }
-.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq {
+.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq, .feature-2w65J5 {
   border-radius: 10px !important;
 }
 .avatarUploaderInner-3UNxY3, .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to {
@@ -286,6 +306,12 @@
 }
 .card-FDVird:before {
   background-color: var(--background-modifier-hover) !important;
+}
+.contentColumnDefault-1VQkGM {
+  padding: 60px 0 80px 40px;
+}
+.side-8zPYf6 .item-PXvHYJ:not([aria-controls="Logout-tab"i]):not([aria-controls="DELETE-tab"])::before {
+  color: var(--settings-icon-color);
 }
 /* sliders */
 .barFill-23-gu- {
@@ -355,6 +381,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 }
 .theme-light .colorDefault-2K3EoJ:active {
   color: var(--text-normal);
+}
+.friend-3KALPe {
+  border-radius: 8px;
 }
 /* call */
 .colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.red-33-Lnk, .centerButton-3CaNcJ {
@@ -473,14 +502,19 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   background-color: var(--background-modifier-selected);
 }
 /* tab bar */
-.topPill-30KHOu {
+.topPill-30KHOu:not(.container-7uh5fX>div) {
   height: 38px;
   border-radius: 8px;
 }
-.modal-3c3bKg .top-28JiJ- .item-PXvHYJ, .repoHeader-2KfNvH .top-28JiJ- .item-PXvHYJ, .header-2-Imhb .item-PXvHYJ, .contentWrapper-SvZHNd .navButton-2gQCx- {
+.modal-3c3bKg .top-28JiJ- .item-PXvHYJ, .repoHeader-2KfNvH .top-28JiJ- .item-PXvHYJ, .header-2-Imhb .item-PXvHYJ, .contentWrapper-SvZHNd .navButton-2gQCx-, .searchResultsWrap-3-pOjs .tab-2j5AEF, .container-7uh5fX .tab-PQvTH4 {
   border-radius: 8px;
   padding: 0 25px 0 25px;
   height: 30px;
+  border: 0;
+}
+.container-7uh5fX .tab-17bjMB {
+  border-radius: 8px;
+  padding: 0 10px 0 10px;
   border: 0;
 }
 .contentWrapper-SvZHNd .container-3ISnnM, .contentWrapper-SvZHNd .wrapper-2iFQJ9, .contentWrapper-SvZHNd .wrapper-1rqM3x {
@@ -613,7 +647,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   z-index: 2;
 }
 /* search */
-.searchResultsWrap-3-pOjs .scroller-3GIiMh, .react-datepicker, .react-datepicker__header {
+.searchResultsWrap-3-pOjs .scroller-3GIiMh, .react-datepicker, .react-datepicker__header, .searchResultsWrap-3-pOjs .channelName-1JRO3C {
   background-color: var(--background-tertiary) !important;
 }
 .react-datepicker__day:first-of-type {
@@ -631,7 +665,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .react-datepicker__day--selected:after {
   background-color: var(--accent-color) !important;
 }
-.datePickerHint-3Q1Udw .hintValue-29ny8Z {
+.datePickerHint-3Q1Udw .hintValue-29ny8Z, .theme-dark .activeButton-rvKcqq {
   background-color: var(--accent-color) !important;
   color: var(--interactive-selected) !important;
 }
@@ -643,7 +677,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   border-radius: 8px;
 }
 .container-3ayLPN {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-secondary) !important;
   border-radius: 10px;
   border: 1px solid var(--border-color);
 }
@@ -671,7 +705,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   color: var(--interactive-selected);
 }
 /* some popouts */
-.popout-VcNcHB {
+.popout-VcNcHB, .messagesPopoutWrap-1MQ1bW, .container-7uh5fX {
   border-radius: 10px;
   border: 1px solid var(--border-color);
 }
@@ -697,8 +731,11 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
   background-color: var(--background-modifier-hover);
 }
-.root-1gCeng, .footer-2gL1pp, .root-1gCeng .avatarUploaderInner-KkYu-S, .uploadModal-2ifh8j, .footer-3mqk7D {
+.root-1gCeng:not(.popout-103y-5), .footer-2gL1pp, .root-1gCeng .avatarUploaderInner-KkYu-S, .uploadModal-2ifh8j, .footer-3mqk7D {
   background-color: var(--background-tertiary) !important;
+}
+.popout-103y-5, .messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .message-2qRu38, .header-1VS4tm {
+  background-color: var(--background-secondary) !important;
 }
 .addMemberRow-3-w-9X.selectedRow-1QP7qb {
   background-color: var(--background-modifier-active);
@@ -720,7 +757,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .childWrapper-anI2G9 {
   color: var(--accent-color);
 }
-/* boost server */
+/* boost server & nitro*/
 .perksModalContentWrapper-2HU6uL {
   background-color: var(--background-tertiary);
 }
@@ -740,6 +777,21 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .tierMarkerLabelPlusIcon-1OS7E9 {
   color: var(--accent-color);
 }
+.subscribeTooltipWrapper-1JoUuw, .card-3AyPWq {
+  border-radius: 10px;
+}
+.hero-EvfTTA, .featuresHeader-4YwLcc {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+.featureGrid-3-fNl- {
+  grid-template-columns: repeat(auto-fill, 201px);
+}
+.featurePremiumGuild-2KpCr6 .featureImage-2L9kA0 {
+  width: 184px;
+  border-radius: 0 0 10px 0;
+}
 /* keyboard shortcuts */
 .keyboardShortcutsModal-3piNz7 {
   background-color: var(--background-tertiary) !important;
@@ -748,6 +800,15 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .keybindShortcut-1BD6Z1 span {
   background-color: var(--background-accent);
   color: var(--accent-color) !important;
+}
+/* threads */
+.threadSidebar-1o3BTy {
+  margin: 0 10px;
+  background-color: var(--background-tertiary);
+}
+.threadSidebar-1o3BTy .chat-1WUuAG {
+  border-radius: 10px;
+  background-color: var(--background-primary);
 }
 /* everything else */
 ::-webkit-scrollbar {
