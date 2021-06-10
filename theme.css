@@ -431,39 +431,36 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   color: var(--accent-color);
 }
 /* profiles | thanks to mackenzie#0173 */
-.note-QfFU8y textarea {
+.note-1MiCN7 textarea {
   display: none;
 }
-.userInfoSectionHeader-CBvMDh, .setIdentityLink-OpBDR6, .bodyTitle-Y0qMQz, .note-3HfJZ5, .footer-1fjuF6 {
+.userInfoSectionHeader-3TYk6R, .setIdentityLink-OpBDR6, .bodyTitle-3FWCs2, .note-367eZJ, .footer-1N3bR3 {
   display: none;
 }
-.userInfoSection-2acyCx {
+.userInfoSection-q_35fn {
   margin-top: -21px;
 }
-.body-3ND3kc {
+.body-r6_QPy {
   height: calc(100% - 167px);
 }
-.listRow-hutiT_ {
+.listRow-1iDGel {
   margin-right: 8px;
   border-radius: 10px;
 }
-.actionButtons-14eAc_ .button-1YfofB {
-  border-right: 2px;
-}
-.body-3iLsc4, .headerFill-adLl4x, .topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P, .profileBanner-33-uE1, .avatar-22FtUu, .headerTop-2y3V6H, .headerTop-2cWpdB, .activity-fViXj7 {
+.body-r6_QPy, .activity-3v9l4T, .profileBanner-33-uE1, .avatar-37jOim, .headerTop-2y3V6H, .headerTop-2cWpdB, .activity-fViXj7, .body-3HBlXn {
   background-color: var(--background-tertiary) !important;
 }
 .lookInverted-2D7oAl .contents-18-Yxp {
   color: var(--interactive-selected);
 }
-.avatar-22FtUu {
+.avatar-37jOim {
   border: none;
 }
-.avatarHint-1E3LMl {
+.avatarHint-2A3RNb {
   top: 0;
   left: 0;
 }
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
   border-radius: 10px;
   border: 1px solid var(--border-color);
 }
@@ -506,7 +503,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   height: 38px;
   border-radius: 8px;
 }
-.modal-3c3bKg .top-28JiJ- .item-PXvHYJ, .repoHeader-2KfNvH .top-28JiJ- .item-PXvHYJ, .header-2-Imhb .item-PXvHYJ, .contentWrapper-SvZHNd .navButton-2gQCx-, .searchResultsWrap-3-pOjs .tab-2j5AEF, .container-7uh5fX .tab-PQvTH4 {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .top-28JiJ- .item-PXvHYJ, .repoHeader-2KfNvH .top-28JiJ- .item-PXvHYJ, .header-2-Imhb .item-PXvHYJ, .contentWrapper-SvZHNd .navButton-2gQCx-, .searchResultsWrap-3-pOjs .tab-2j5AEF, .container-7uh5fX .tab-PQvTH4 {
   border-radius: 8px;
   padding: 0 25px 0 25px;
   height: 30px;
@@ -647,8 +644,11 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   z-index: 2;
 }
 /* search */
-.searchResultsWrap-3-pOjs .scroller-3GIiMh, .react-datepicker, .react-datepicker__header, .searchResultsWrap-3-pOjs .channelName-1JRO3C {
+.searchResultsWrap-3-pOjs .scroller-3GIiMh, .searchResultsWrap-3-pOjs .channelName-1JRO3C {
   background-color: var(--background-tertiary) !important;
+}
+.react-datepicker, .react-datepicker__header {
+  background-color: var(--background-secondary) !important;
 }
 .react-datepicker__day:first-of-type {
   border-radius: 8px 0 0 8px !important;
@@ -660,7 +660,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   border-radius: 8px !important;
 }
 .react-datepicker__day {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-tertiary) !important;
 }
 .react-datepicker__day--selected:after {
   background-color: var(--accent-color) !important;
