@@ -624,6 +624,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .categoryHeader-O1zU94, .wrapper-2Gsate {
   background-color: var(--background-secondary);
 }
+.newMessagesBar-265mhP {
+  background-color: var(--background-accent);
+}
 /* channel list */
 .sidebar-2K8pFh {
   border-radius: 10px;
@@ -809,6 +812,32 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .threadSidebar-1o3BTy .chat-1WUuAG {
   border-radius: 10px;
   background-color: var(--background-primary);
+}
+/* view as role */
+.notice-18685F {
+  background-color: var(--background-tertiary);
+}
+.tooltip-2QfLtc {
+  border-radius: 10px;
+  background-color: var(--background-tertiary);
+  border: 1px solid var(--border-color);
+}
+.button-2TV-eO {
+  border-color: var(--button-background) !important;
+  background-color: var(--button-background);
+}
+.button-2TV-eO:hover {
+  background-color: var(--button-background-hover);
+}
+.button-2TV-eO:active {
+  background-color: var(--button-background-active);
+}
+.container-1eFT6O {
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+.container-1eFT6O .selected-2114Fj {
+  background-color: var(--background-modifier-active);
 }
 /* everything else */
 ::-webkit-scrollbar {
