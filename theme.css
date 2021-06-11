@@ -842,6 +842,28 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .container-1eFT6O .selected-2114Fj {
   background-color: var(--background-modifier-active);
 }
+/* quick switcher */
+.quickswitcher-3JagVE, .scroller-zPkAnE {
+  background-color: var(--background-tertiary) !important;
+}
+.quickswitcher-3JagVE {
+  border-radius: 10px;
+}
+.quickswitcher-3JagVE .input-2VB9rf {
+  box-shadow: none;
+}
+.quickswitcher-3JagVE .input-2VB9rf:focus {
+  border: 1px solid var(--accent-color);
+}
+.quickswitcher-3JagVE .scroller-zPkAnE {
+  margin-right: unset;
+}
+.resultFocused-3aIoYe .username-2hHyRL, .resultFocused-3aIoYe .miscContainer-2ptJ_C {
+  color: var(--interactive-selected);
+}
+.resultDefault-1ymv3u, .resultFocused-3aIoYe {
+  border-radius: 8px;
+}
 /* everything else */
 ::-webkit-scrollbar {
   display: none;
