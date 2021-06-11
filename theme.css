@@ -294,7 +294,7 @@
 .powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq, .feature-2w65J5, .details-1YZMDP>div {
   border-radius: 10px !important;
 }
-.avatarUploaderInner-3UNxY3, .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to {
+.avatarUploaderInner-3UNxY3, .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to, .card-3AyPWq {
   background-color: var(--background-secondary) !important;
 }
 .item-26Dhrx[aria-checked=true] {
@@ -312,6 +312,20 @@
 }
 .side-8zPYf6 .item-PXvHYJ:not([aria-controls="Logout-tab"i]):not([aria-controls="DELETE-tab"])::before {
   color: var(--settings-icon-color);
+}
+.bd-social-logo path, .foreground-26ym5y {
+  fill: var(--settings-icon-color) !important;
+}
+.closeButton-1tv5uR {
+  background-color: var(--button-background);
+  border-radius: 8px;
+}
+.contentRegionScroller-26nc1e .tools-3-3s-N {
+  position: relative;
+  right: 40px;
+}
+.sectionTitle-2vauyC {
+  padding-bottom: 10px;
 }
 /* sliders */
 .barFill-23-gu- {
@@ -463,6 +477,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .userPopout-xaxa6l {
   border-radius: 10px;
   border: 1px solid var(--border-color);
+}
+.root-3QyAh1 {
+  width: 650px;
 }
 /* better roles | thanks to Bowser65#1337 */
 .role-2irmRk {
@@ -780,7 +797,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .tierMarkerLabelPlusIcon-1OS7E9 {
   color: var(--accent-color);
 }
-.subscribeTooltipWrapper-1JoUuw, .card-3AyPWq {
+.subscribeTooltipWrapper-1JoUuw, .card-3AyPWq, .banner-3Kac2g {
   border-radius: 10px;
 }
 .hero-EvfTTA, .featuresHeader-4YwLcc, .banner-3Kac2g {
@@ -795,8 +812,12 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   width: 184px;
   border-radius: 0 0 10px 0;
 }
-.tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover, .tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover>svg {
+.tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover, .tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover>svg, .icon-1ihkOt {
   color: var(--interactive-selected) !important;
+}
+.subscribeTooltipWrapper-1JoUuw {
+  background-color: var(--background-tertiary);
+  border: 1px solid var(--border-color);
 }
 /* keyboard shortcuts */
 .keyboardShortcutsModal-3piNz7 {
