@@ -1,29 +1,34 @@
 /**
  * @name Zelk
- * @version 1.0.1
+ * @version 1.1
  * @description a smooth theme inspired by zorin blue
  * @author schnensch
  * @authorId 652801938374656013
  * @source https://github.com/schnensch0/zelk
- * @updateUrl https://github.com/schnensch0/zelk/blob/main/zelkBD.theme.css
  */
-
-/* imports */
-@import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
-
-/* dark mode */
- .theme-dark {
+ /* imports */
+ @import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
+:root {
+  /* set to 'unset' to display scrollbars */
+  --scrollbars: none;
+  /* set to 'Inter', sans-serif !important to use Inter font*/
+  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --border-radius-1: 10px;
+  --border-radius-2: 8px;
+}
+/* dark mode
+ basic variables */
+.theme-dark {
   --accent-color: #bde6fb;
-
   --background-1: #131719;
   --background-2: #191f22;
   --background-accent: #252e32;
-
   --border-color: #1e262a;
- }
+}
 /* advanced variables */
 .theme-dark {
-/* background */
+  /* background */
   --background-primary: var(--background-1);
   --background-primary-alt: var(--background-1);
   --background-secondary: var(--background-1);
@@ -33,13 +38,13 @@
   --background-floating: var(--background-1);
   --background-mentioned: #bde6fb10;
   --background-mentioned-hover: #bde6fb15;
-/* modifier colours */
+  /* modifier colours */
   --background-modifier-hover: #21292c;
   --background-modifier-active: #2b3437;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-/* text colors */
+  /* text colors */
   --text-normal: var(--accent-color);
   --text-positive: var(--accent-color);
   --text-muted: #6d8692;
@@ -47,10 +52,11 @@
   --interactive-selected: var(--background-primary);
   --interactive-active: #c1e7fd;
   --interactive-normal: var(--text-normal);
+  --interactive-muted: var(--background-accent);
   --channels-default: var(--text-muted);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
-/* more colors */
+  /* more colors */
   --settings-icon-color: #8caaba;
   --radio-bar-accent-color: transparent;
   --control-brand-foreground: var(--accent-color);
@@ -59,7 +65,9 @@
   --channeltextarea-background: var(--background-tertiary);
   --switch: #3d4c53;
   --activity-card-background: var(--background-1);
-/* buttons */
+  --brand-experiment: var(--accent-color) !important;
+  --deprecated-text-input-bg: var(--background-secondary);
+  /* buttons */
   --button-background: #252e32;
   --button-background-hover: #323d42;
   --button-background-active: #4a5b63;
@@ -69,21 +77,19 @@
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
- }
-
-/* light mode */
+}
+/* light mode
+  basic variables */
 .theme-light {
   --accent-color: #22c5fd;
-
   --background-1: #e4e8ee;
   --background-2: #f5f7fa;
   --background-accent: #e4e8ee;
-
   --border-color: #e4e8ee;
-  }
+}
 /* advanced variables */
 .theme-light {
-/* background */
+  /* background */
   --background-primary: var(--background-1);
   --background-primary-alt: var(--background-1);
   --background-secondary: var(--background-1);
@@ -99,7 +105,7 @@
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-/* text colors */
+  /* text colors */
   --text-normal: #123354;
   --text-positive: #123354;
   --text-muted: #8495a7;
@@ -107,10 +113,11 @@
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
+  --interactive-muted: var(--background-accent);
   --channels-default: var(--text-normal);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
-/* more colors */
+  /* more colors */
   --settings-icon-color: #566e86;
   --radio-bar-accent-color: transparent;
   --control-brand-foreground: var(--accent-color);
@@ -119,7 +126,9 @@
   --channeltextarea-background: var(--background-tertiary);
   --switch: #c8d0d9;
   --activity-card-background: var(--background-1);
-/* buttons */
+  --brand-experiment: var(--accent-color) !important;
+  --deprecated-text-input-bg: var(--background-secondary);
+  /* buttons */
   --button-background: #e4e8ee;
   --button-background-hover: #d3dae1;
   --button-background-active: #c8d0d9;
