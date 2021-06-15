@@ -1,13 +1,15 @@
 /**
  * @name Zelk
- * @version 1.1
+ * @version 1.1.1
  * @description a smooth theme inspired by zorin blue
  * @author schnensch
  * @authorId 652801938374656013
  * @source https://github.com/schnensch0/zelk
  */
- /* imports */
- @import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
+/* imports */
+@import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
+@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 :root {
   /* set to 'unset' to display scrollbars */
   --scrollbars: none;
@@ -138,4 +140,15 @@
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
+}
+/* usrbg | snippet by _david_#0218*/
+.userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d, .root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
+  height: 120px;
+  background: var(--background-tertiary) var(--user-background) var(--user-popout-position, center) center / cover !important;
+}
+.userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn {
+  top: 76px;
+}
+.root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
+  height: 240px;
 }

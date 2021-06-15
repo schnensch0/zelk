@@ -1,6 +1,6 @@
 # Zelk
 
-`1.1`
+`1.1.1`
 
 Zelk is a smooth discord theme inspired by the [Zorin Blue Dark](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Dark)/[Light](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinBlue-Light) GTK theme.
 
@@ -18,6 +18,4 @@ Search for **Zelk** in the Themes tab
 for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/preview)
 
 ### TO DO
-* icons?
-* animations?
-* more accent colors?
+* more accent colors

@@ -1,5 +1,6 @@
 /* imports */
-@import url(https://raw.githack.com/schnensch0/zelk/main/theme.css);
+@import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
+@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
 :root {
   /* set to 'unset' to display scrollbars */
   --scrollbars: none;
