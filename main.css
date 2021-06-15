@@ -593,6 +593,10 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   height: 30px;
   border: 0;
 }
+.tabBarItem-2QyJ0U {
+  border-radius: var(--border-radius-2);
+  padding: 5px 8px;
+}
 .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
   background-color: var(--accent-color);
   color: var(--interactive-selected);
