@@ -19,3 +19,4 @@ for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/pre
 
 ### TO DO
 * more accent colors
+* more variable stuff
