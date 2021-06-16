@@ -1,4 +1,23 @@
 /* DEPRECATED WILL BE REMOVED SOON */
+/* outdated warning | taken from Leeprky#2063 */
+.layer-3QrUeG:first-of-type::before {
+  content: "You are using an outdated version of Zelk. Please download v1.1.1 to receive further updates.";
+  z-index: 2;
+  background: #131719;
+  color: #bde6fb;
+  position: fixed;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  width: 610px;
+  height: 15px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+  border: 2px solid #bde6fb;
+}
 /* imports */
 @import url('https://rsms.me/inter/inter.css');
 /* background */
