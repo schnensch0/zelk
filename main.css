@@ -28,10 +28,10 @@
   height: 22px;
 }
 .theme-dark .toolbar-1t6TWx .icon-22AiRD {
-  color: var(--accent-color) !important;
+  color: var(--accent-color);
 }
 .theme-light .toolbar-1t6TWx .icon-22AiRD {
-  color: var(--text-normal) !important;
+  color: var(--text-normal);
 }
 .theme-dark .toolbar-1t6TWx .icon-3cZ1F_ {
   color: var(--accent-color);
@@ -52,6 +52,10 @@
 .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
   width: 240px;
   transition: 0.25s;
+}
+.inviteToolbar-3F-l2g>div {
+  padding: 7px 7px 29px 10px !important;
+  border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
 }
 .toolbar-1t6TWx .clickable-3rdHwn:not([aria-label="Threads"]) {
   padding: 7px 7px 29px 7px;
@@ -90,10 +94,6 @@
 .toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g) {
   border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
 }
-.inviteToolbar-3F-l2g>div {
-  padding: 7px 7px 29px 10px !important;
-  border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
-}
 .toolbar-1t6TWx>:last-child>div, .toolbar-1t6TWx>:last-child {
   border-radius: 0px var(--border-radius-1) var(--border-radius-1) 0px;
 }
@@ -114,7 +114,7 @@
   fill: var(--button-destructive);
 }
 .item-PXvHYJ[aria-controls='logout-tab'] {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 .fixed-3zCC84::after, .deny-3nAuT6.selected-2YhbGh {
   background-color: var(--button-destructive);
@@ -123,10 +123,6 @@
   opacity: 1;
 }
 /* status area*/
-.layer-v9HyYc .popout_164 {
-  left: 82px !important;
-  bottom: 63px !important;
-}
 .powercord-spotify .container-3baos1 .avatarWrapper-2yR4wp {
   margin-left: 2px;
 }
@@ -321,7 +317,7 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="DELETE-tab"]:active::before, .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]:active::before {
   --settings-icon-color: var(--button-destructive-active);
 }
-.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq, .feature-2w65J5, .details-1YZMDP>div, .preview-2Vkbi6, .powercord-quickcss, .profileBannerPreview-3FLQKD {
+.powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq, .feature-2w65J5, .details-1YZMDP>div, .preview-2Vkbi6, .powercord-quickcss, .profileBannerPreview-3FLQKD, .card-FDVird:before {
   border-radius: var(--border-radius-1) !important;
 }
 .accountBtnInner-sj5jLs {
@@ -377,10 +373,6 @@
   text-transform: none;
   font-size: 20px;
 }
-.children-rWhLdy> :first-child>.colorStandard-2KCXvj.size14-e6ZScH.description-3_Ncsb.formText-3fs7AJ.marginBottom20-32qID7.modeDefault-3a2Ph1::after {
-  content: " Changing this setting may cause issues using Zelk.";
-  color: var(--button-destructive);
-}
 .info-1VyQPT::after {
   content: "Zelk 1.1.1";
   color: var(--text-muted);
@@ -429,6 +421,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 }
 .labelContainer-1BLJti, .item-1tOPte {
   border-radius: var(--border-radius-2);
+  margin-right: 8px;
 }
 .button-1ZiXG9.selected-LCBEAU>svg, .languageSelector-2LVJrh .selected-2114Fj, .languageSelector-2LVJrh .selected-2114Fj:hover {
   color: var(--interactive-selected);
@@ -1143,6 +1136,10 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   border-color: var(--border-color) !important;
   padding: 10px;
   border-radius: var(--border-radius-1);
+}
+.hljs-comment, .hljs-quote {
+  color: var(--text-muted);
+  opacity: .5;
 }
 /* plugin/theme repo */
 .card-x5zW6z {
