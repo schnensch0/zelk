@@ -2,7 +2,7 @@
 /* temporary variables */
 :root {
   --notes: none;
-  --dm: none;
+  --message: none;
 }
 /* imports */
 @import url('https://rsms.me/inter/inter.css');
@@ -513,7 +513,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   display: none;
 }
 .footer-3UKYOU, .footer-1N3bR3 {
-  display: var(--dm);
+  display: var(--message);
 }
 .note-1MiCN7 textarea, .note-367eZJ {
   display: var(--notes);
