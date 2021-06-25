@@ -265,7 +265,7 @@
   color: var(--text-normal) !important;
 }
 /* settings */
-.sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .scroller-305q3I, .powercord-entities-manage-tabs {
+.sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .scroller-305q3I, .powercord-entities-manage-tabs, .bannerUploaderInnerSquare-1ddxpx, .popoutInfo-pKbpvG {
   background-color: var(--background-tertiary) !important;
 }
 .sidebar-CFHs9e {
@@ -329,7 +329,7 @@
 .accountBtnInner-sj5jLs {
   border-radius: var(--border-radius-2);
 }
-.avatarUploaderInner-3UNxY3, .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to, .card-3AyPWq, .profileBackgroundPreview-3BVL0Q, .profileBannerPreview-3FLQKD .avatar-2PN2-j, .card-3IImnr, .card-11DMwv, .notEnoughMembersError-1KwJkE {
+.avatarUploaderInner-3UNxY3:not(.bannerUploaderInnerSquare-1ddxpx), .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to, .card-3AyPWq, .profileBackgroundPreview-3BVL0Q, .profileBannerPreview-3FLQKD .avatar-2PN2-j, .card-3IImnr, .card-11DMwv, .notEnoughMembersError-1KwJkE, .accountProfileCard-1XCH88, .settingsBanner-15-pZk {
   background-color: var(--background-secondary) !important;
 }
 .item-26Dhrx[aria-checked=true] {
@@ -388,6 +388,9 @@
 .breadcrumbArrow-1bJVKv {
   top: -4px;
   position: relative;
+}
+.profileBannerPreview-3_l0Wd {
+  border: 1px solid var(--border-color);
 }
 /* sliders */
 .barFill-23-gu- {
@@ -509,7 +512,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   color: var(--accent-color);
 }
 /* profiles | thanks to mackenzie#0173 */
-.userInfoSectionHeader-3TYk6R, .bodyTitle-3FWCs2, .bodyTitle-1ySSKn, .footer-1N3bR3, .footer-3UKYOU, .aboutMeTitle-2i3lnH, .protip-2urNh2 {
+.userInfoSectionHeader-3TYk6R, .bodyTitle-3FWCs2, .bodyTitle-1ySSKn, .footer-1N3bR3, .footer-3UKYOU, .aboutMeTitle-1IYtPE, .protip-2urNh2 {
   display: none;
 }
 .footer-3UKYOU, .footer-1N3bR3 {
@@ -525,7 +528,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   margin: 2px 8px;
   border-radius: var(--border-radius-1);
 }
-.body-r6_QPy, .activity-3v9l4T, .profileBanner-33-uE1, .avatar-37jOim, .headerTop-2y3V6H, .headerTop-3vNv-a, .headerTop-2cWpdB, .activity-fViXj7, .body-3HBlXn, .topSection-y3p-_D, .banner-2QYc2d, .avatar-AvHqJA, .aboutMeSection---MkQa, .footer-3UKYOU, .footer-1N3bR3, .bodyInnerWrapper-26fQXj {
+.body-r6_QPy, .activity-3v9l4T, .profileBanner-33-uE1, .avatar-37jOim, .headerTop-2y3V6H, .headerTop-3vNv-a, .headerTop-2cWpdB, .activity-fViXj7, .body-3HBlXn, .topSection-y3p-_D, .banner-2QYc2d:not(.settingsBanner-15-pZk), .avatar-AvHqJA, .aboutMeSection---MkQa, .footer-3UKYOU, .footer-1N3bR3, .bodyInnerWrapper-26fQXj {
   background-color: var(--background-tertiary) !important;
 }
 .bodyInnerWrapper-26fQXj {
@@ -575,21 +578,8 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .listScroller-3GmIYj {
   margin: 0 12px 12px 12px;
 }
-.root-1gCeng[data-user-id="652801938374656013"] .badgeList-1R1WgZ::after {
-  background-image: url(https://cdn.discordapp.com/attachments/733994170162610178/854785472404520991/badge.png);
-  margin: 1px;
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-  content: "";
-}
-.userPopout-xaxa6l[data-user-id="652801938374656013"] .profileBadges-3cJaE1::after {
-  background-image: url(https://cdn.discordapp.com/attachments/733994170162610178/854785472404520991/badge.png);
-  margin: 1px;
-  width: 16px;
-  height: 16px;
-  background-size: contain;
-  content: "";
+.customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia {
+  padding: 0 12px 12px 0;
 }
 /* better roles | thanks to Bowser65#1337 */
 .role-2irmRk {
@@ -704,7 +694,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .tabBarContainer-1s1u-z {
   border-top: transparent;
 }
-.tabBody-3YRQ8W::before, .divider-3FBTu8, .content-yTz4x3:before, .chat-1cCjJ5::before, .separator-XqIyoz, .pc-connections .connectedAccounts-QlRa4m:empty::before {
+.tabBody-3YRQ8W::before, .divider-3FBTu8, .content-yTz4x3:before, .chat-1cCjJ5::before, .separator-XqIyoz, .pc-connections .connectedAccounts-QlRa4m:empty::before, .divider-ewBQKj {
   display: none;
 }
 .searchBar-6Kv8R2, .header-2V-4Sw, .headerBarContainer-31FKNA {
