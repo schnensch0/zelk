@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**What feature would you like to see added to Zelk?**
+Describe what you'd want to have added
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**How would you like it to be implemented?**
+Suggest a solution, what should be done?
 
 **Additional context**
 Add any other context or screenshots about the feature request here.

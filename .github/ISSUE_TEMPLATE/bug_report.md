@@ -15,15 +15,12 @@ Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Setup**
  - OS: [e.g. Windows]
- - Client Mod: [e.g. powercord, better discord]
- - Release Channel: [eg. canary, ptb, stable]
- - Other enabled Themes: 
- - Other enabled Plugins: [eg. staff tags]
+ - Client Mod: [e.g. BetterDiscord]
+ - Release Channel: [e.g. canary, stable]
+ - Enabled Themes:
+ - Enabled Plugins:
