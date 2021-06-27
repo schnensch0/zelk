@@ -10,7 +10,7 @@
 .tabBody-3YRQ8W, .chat-3bRxxu, .container-3w7J-x, .container-lRFx4q, .privateChannels-1nO12o, .homeWrapperNormal-2KSUEa {
   background-color: var(--background-tertiary);
 }
-.peopleColumn-29fq28, .chatContent-a9vAAp, .pageWrapper-1PgVDX, .scroller-9moviB, .stageSection-3mAD8V {
+.peopleColumn-29fq28, .chatContent-a9vAAp, .pageWrapper-1PgVDX, .scroller-1JbKMe, .scroller-9moviB, .stageSection-3mAD8V {
   border-radius: var(--border-radius-1);
   margin-left: 10px;
   background-color: var(--background-primary) !important;
@@ -21,8 +21,11 @@
 .container-2lgZY8 {
   margin-bottom: 10px;
 }
-.scroller-9moviB, .content-yTz4x3 {
+.pageWrapper-1PgVDX, .content-yTz4x3 {
   margin-right: 10px;
+}
+.channel-2QD9_O {
+  margin-right: 8px;
 }
 /* top bar icons */
 .container-1r6BKw.themed-ANHk51, .container-1taM1r {
@@ -263,6 +266,9 @@
 }
 .inputDefault-_djjkz {
   color: var(--text-normal) !important;
+}
+.scroller-1d5FgU {
+  padding: 32px !important;
 }
 /* settings */
 .sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .scroller-305q3I, .powercord-entities-manage-tabs, .bannerUploaderInnerSquare-1ddxpx, .popoutInfo-pKbpvG {
@@ -750,6 +756,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 }
 .iconTierOne-s_oiRb, .iconTierTwo-1JOWNK, .iconTierThree-3EAOB7, .icon-1ihkOt {
   color: var(--background-tertiary) !important;
+}
+.listItem-GuPuDH, .guilds-1SWlCJ {
+  width: 68px;
 }
 /* chat */
 .embed-IeVjo6 {
