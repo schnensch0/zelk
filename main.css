@@ -10,10 +10,13 @@
 .tabBody-3YRQ8W, .chat-3bRxxu, .container-3w7J-x, .container-lRFx4q, .privateChannels-1nO12o, .homeWrapperNormal-2KSUEa {
   background-color: var(--background-tertiary);
 }
-.peopleColumn-29fq28, .chatContent-a9vAAp, .pageWrapper-1PgVDX, .scroller-1JbKMe, .scroller-9moviB, .stageSection-3mAD8V {
+.peopleColumn-29fq28, .chatContent-a9vAAp, .pageWrapper-1PgVDX, .scroller-9moviB, .stageSection-3mAD8V {
   border-radius: var(--border-radius-1);
   margin-left: 10px;
   background-color: var(--background-primary) !important;
+}
+.scroller-1JbKMe {
+  border-radius: var(--border-radius-1);
 }
 .scroller-RmtA4e {
   background-color: var(--background-primary);
