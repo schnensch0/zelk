@@ -809,7 +809,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   padding: 0 8px;
   border-radius: var(--border-radius-2);
 }
-.jumpToPresentBar-G1R9s6 {
+.jumpToPresentBar-G1R9s6, .messagesErrorBar-nyJGU7 {
   left: 24px;
   right: 24px;
 }
@@ -819,6 +819,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   right: 8px;
   border-radius: var(--border-radius-2);
   padding: 4px;
+}
+.messagesErrorBar-nyJGU7 {
+  background-color: var(--button-destructive);
 }
 /* channel list */
 .sidebar-2K8pFh, .content-1x5b-n {
@@ -1001,7 +1004,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   background-color: var(--background-tertiary);
   border-radius: var(--border-radius-1);
 }
-.messageGroupCozy-2iY6cT, .table-39R0Oe, .formFieldWrapper-malor5, .channel-3pEHab {
+.messageGroupCozy-2iY6cT, .table-39R0Oe, .formFieldWrapper-malor5, .channel-3pEHab, .video-1j0A3v {
   border-radius: var(--border-radius-1);
 }
 .header-ykumBX {
@@ -1220,6 +1223,58 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--background-accent) !important;
+}
+/* spotify */
+:root {
+  --spotify-color: var(--accent-color) !important;
+}
+.container-6sXIoE .button-14-BFJ.active-6TsW-_ {
+  background-color: var(--background-accent);
+}
+.container-6sXIoE .button-14-BFJ {
+  color: var(--interactive-normal) !important;
+}
+.container-6sXIoE.maximized-vv2Wr0 .cover-SwJ-ck, .playlist, .modal-yWgWj- {
+  border-radius: var(--border-radius-1);
+}
+.timeline-UWmgAx:hover .barFill-Dhkah7 {
+  background: var(--text-normal);
+}
+.grabber-7sd5f5 {
+  margin-top: -4px;
+  display: block;
+  background: var(--background-secondary);
+  border: 2px solid var(--text-normal);
+}
+.grabber-7sd5f5:active {
+  background: var(--text-normal);
+}
+.barFill-23-gu- {
+  background-color: var(--background-modifier-selected) !important;
+}
+.volumeSlider-sR5g00 .grabber-3mFHz2 {
+  width: 10px;
+  margin-top: -8px;
+  margin-left: 0;
+}
+.timeline-UWmgAx {
+  margin: 16px 0 0;
+}
+.powercord-spotify .spotify-extra-controls .active {
+  background-color: var(--background-accent);
+  padding: 8px 6px;
+  border-radius: var(--border-radius-2);
+}
+.powercord-spotify .spotify-seek-bar-cursor {
+  opacity: 1 !important;
+  background: var(--background-secondary) !important;
+  border-color: var(--text-normal);
+}
+.modal-yWgWj- {
+  background-color: var(--background-tertiary) !important;
+}
+.track img, .playlist img {
+  border-radius: var(--border-radius-2);
 }
 /* everything else */
 .highlight {
