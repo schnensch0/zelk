@@ -760,8 +760,11 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .iconTierOne-s_oiRb, .iconTierTwo-1JOWNK, .iconTierThree-3EAOB7, .icon-1ihkOt {
   color: var(--background-tertiary) !important;
 }
-.listItem-GuPuDH, .guilds-1SWlCJ {
+.listItem-GuPuDH, .guilds-1SWlCJ, .wrapper-3Njo_c {
   width: 68px;
+}
+.expandedFolderBackground-1cujaW {
+  left: 10px;
 }
 /* chat */
 .embed-IeVjo6 {
