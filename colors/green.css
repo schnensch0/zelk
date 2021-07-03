@@ -14,7 +14,6 @@
   --text-link: #e6faf2 !important;
   --interactive-active: #c1e7fd !important;
   --settings-icon-color: #8bb4a5 !important;
-  --radio-bar-accent-color: transparent !important;
   --tab-selected: #33433d !important;
   --switch: #3b4d46 !important;
   --button-background: #27332f !important;
@@ -41,10 +40,9 @@
   --text-link: #219e6f !important;
   --interactive-active: var(--text-normal) !important;
   --settings-icon-color: #5a7c76 !important;
-  --radio-bar-accent-color: transparent !important;
   --tab-selected: #ffffff !important;
   --switch: #cad6d4 !important;
-  --button-background: transparent !important;
+  --button-background: var(--background-1) !important;
   --button-background-hover: var(--background-modifier-active) !important;
   --button-background-active: #b4c4c1 !important;
   --button-accent-hover: #2ae18e !important;
@@ -73,9 +71,7 @@
   --header-secondary: var(--text-muted) !important;
   --control-brand-foreground: var(--accent-color) !important;
   --info-warning-foreground: var(--accent-color) !important;
-  --channeltextarea-background: var(--background-tertiary) !important;
   --activity-card-background: var(--background-1) !important;
   --brand-experiment: var(--accent-color) !important !important;
-  --deprecated-text-input-bg: var(--background-secondary) !important;
   --button-accent: var(--accent-color) !important;
 }
