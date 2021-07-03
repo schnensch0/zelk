@@ -3,7 +3,7 @@
   --accent-color: #ffffff !important;
   --background-1: #191919 !important;
   --background-2: #202020 !important;
-  --background-accent: var(--background-1) !important;
+  --background-accent: var(--background-2) !important;
   --border-color: #2c2c2c !important;
   --background-mentioned: #ffffff10 !important;
   --background-mentioned-hover: #ffffff15 !important;
@@ -28,7 +28,7 @@
   --accent-color: #61717c !important;
   --background-1: #ffffff !important;
   --background-2: #f7f7f7 !important;
-  --background-accent: var(--background-1) !important;
+  --background-accent: var(--background-2) !important;
   --border-color: transparent !important;
   --background-mentioned: #61717c10 !important;
   --background-mentioned-hover: #61717c15 !important;
@@ -63,14 +63,14 @@
   --background-modifier-accent: transparent !important;
   --background-message-hover: transparent !important;
   --interactive-normal: var(--text-normal) !important;
-  --interactive-muted: var(--text-muted) !important;
-  --channels-default: var(--text-normal) !important;
+  --interactive-muted: var(--button-background-active) !important;
+  --channels-default: var(--text-muted) !important;
   --header-primary: var(--text-normal) !important;
   --header-secondary: var(--text-muted) !important;
   --control-brand-foreground: var(--accent-color) !important;
   --info-warning-foreground: var(--accent-color) !important;
   --activity-card-background: var(--background-1) !important;
-  --brand-experiment: var(--accent-color) !important !important;
+  --brand-experiment: var(--accent-color) !important;
   --button-accent: var(--accent-color) !important;
   --interactive-active: var(--text-normal) !important;
 }

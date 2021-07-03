@@ -405,6 +405,15 @@
   font-size: 12px;
   line-height: 16px;
 }
+div[role="radiogroup"]+div:not(.disabled-2HSEFa) label::after {
+  content: "\A Enabling this setting might cause issues using Zelk";
+  white-space: pre;
+  color: var(--text-danger);
+  font-size: 14px;
+}
+div[role="radiogroup"]+.disabled-2HSEFa {
+  opacity: .5;
+}
 .breadcrumbArrow-1bJVKv {
   top: -4px;
   position: relative;
