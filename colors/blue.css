@@ -1,32 +1,32 @@
 /* Blue */
 .theme-dark {
   --accent-color: #bde6fb !important;
-  --background-1: #131719 !important;
-  --background-2: #191f22 !important;
-  --background-accent: #252e32 !important;
-  --border-color: #1e262a !important;
+  --background-1: #171d20 !important;
+  --background-2: #1e2529 !important;
+  --background-accent: var(--background-2) !important;
+  --border-color: #273034 !important;
   --background-mentioned: #bde6fb10 !important;
   --background-mentioned-hover: #bde6fb15 !important;
-  --background-modifier-hover: #21292c !important;
-  --background-modifier-active: #2b3437 !important;
+  --background-modifier-hover: #262e33 !important;
+  --background-modifier-active: #495a63 !important;
   --text-normal: var(--accent-color) !important;
   --text-muted: #6d8692 !important;
   --text-link: #edf8fe !important;
-  --settings-icon-color: #8caaba !important;
-  --tab-selected: #323d42 !important;
+  --settings-icon-color: #8eacbc !important;
+  --tab-selected: #354249 !important;
   --switch: #3d4c53 !important;
-  --button-background: #252e32 !important;
-  --button-background-hover: #323d42 !important;
-  --button-background-active: #4a5b63 !important;
-  --button-accent-hover: #d6f1fd !important;
-  --button-accent-active: #95d2f0 !important;
+  --button-background: #2a3439 !important;
+  --button-background-hover: #354249 !important;
+  --button-background-active: #4d5f68 !important;
+  --button-accent-hover: #d2f3ff !important;
+  --button-accent-active: #8dd4f8 !important;
   --button-destructive: #fb7c7c !important;
-  --button-destructive-hover: #ff929b!important;
+  --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
 }
 .theme-light {
   --accent-color: #22c5fd !important;
-  --background-1: #e4e8ee !important;
+  --background-1: #ffffff !important;
   --background-2: #f5f7fa !important;
   --background-accent: var(--background-1) !important;
   --border-color: transparent !important;
@@ -38,13 +38,13 @@
   --text-muted: #8495a7 !important;
   --text-link: #15a6f0 !important;
   --settings-icon-color: #566e86 !important;
-  --tab-selected: #c5cfd7 !important;
+  --tab-selected: var(--background-1) !important;
   --switch: #c8d0d9 !important;
-  --button-background: var(--background-1) !important;
+  --button-background: #ffffff !important;
   --button-background-hover: #d3dae1 !important;
-  --button-background-active: #c8d0d9 !important;
-  --button-accent-hover: #d6f1fd !important;
-  --button-accent-active: #95d2f0 !important;
+  --button-background-active: #b1bcc8 !important;
+  --button-accent-hover: #22c5fd !important;
+  --button-accent-active: #0d87c5 !important;
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
@@ -73,4 +73,5 @@
   --brand-experiment: var(--accent-color) !important;
   --button-accent: var(--accent-color) !important;
   --interactive-active: var(--text-normal) !important;
+  --interactive-hover: var(--interactive-normal) !important;
 }
