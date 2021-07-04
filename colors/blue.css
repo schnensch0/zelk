@@ -28,7 +28,7 @@
   --accent-color: #22c5fd !important;
   --background-1: #ffffff !important;
   --background-2: #f5f7fa !important;
-  --background-accent: var(--background-1) !important;
+  --background-accent: var(--background-2) !important;
   --border-color: transparent !important;
   --background-mentioned: #22c5fd10 !important;
   --background-mentioned-hover: #22c5fd15 !important;
