@@ -321,7 +321,7 @@
 .userSettingsSecurity-3IYeMF .lockIcon-2Hj8Tq, .avatarUploaderIndicator-2G-aIZ {
   display: none;
 }
-.theme-dark, .theme-light {
+:root {
   --settings-logout: var(--button-destructive);
   --settings-guild-delete: var(--button-destructive);
   --info-warning-background: var(--background-secondary);

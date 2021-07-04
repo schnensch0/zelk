@@ -73,4 +73,5 @@
   --brand-experiment: var(--accent-color) !important;
   --button-accent: var(--accent-color) !important;
   --interactive-active: var(--text-normal) !important;
+  --interactive-hover: var(--interactive-normal) !important;
 }

@@ -1,0 +1,47 @@
+/* Default Discord */
+:root {
+  --background-accent: unset !important;
+  --border-color: transparent !important;
+  --background-mentioned: unset !important;
+  --background-mentioned-hover: unset !important;
+  --background-modifier-hover: unset !important;
+  --background-modifier-active: unset !important;
+  --text-normal: unset !important;
+  --text-muted: unset !important;
+  --text-link: unset !important;
+  --text-danger: unset;
+  --settings-icon-color: unset !important;
+  --tab-selected: var(--background-modifier-selected) !important;
+  --switch: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%) !important;
+  --button-background: var(--background-modifier-selected) !important;
+  --button-background-hover: var(--button-background) !important;
+  --button-background-active: var(--button-background) !important;
+  --button-destructive: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%) !important;
+  --button-destructive-hover: hsl(359,calc(var(--saturation-factor, 1)*56.7%),48%) !important;
+  --button-destructive-active: hsl(359,calc(var(--saturation-factor, 1)*56.3%),40.4%) !important;
+  --background-primary: unset !important;
+  --background-primary-alt: unset !important;
+  --background-secondary: unset !important;
+  --background-secondary-alt: unset !important;
+  --background-tertiary: unset !important;
+  --background-accent-gradient: unset !important;
+  --background-floating: unset !important;
+  --background-modifier-selected: unset !important;
+  --text-positive: unset !important;
+  --interactive-selected: unset !important;
+  --background-modifier-accent: unset !important;
+  --background-message-hover: unset !important;
+  --interactive-normal: unset !important;
+  --interactive-hover: unset !important;
+  --interactive-muted: unset !important;
+  --channels-default: var(--text-muted) !important;
+  --header-primary: unset !important;
+  --header-secondary: unset !important;
+  --control-brand-foreground: unset !important;
+  --info-warning-foreground: unset !important;
+  --activity-card-background: unset !important;
+  --brand-experiment: unset !important;
+  --interactive-active: var(--interactive-active) !important;
+  --channeltextarea-background: unset !important;
+  --deprecated-text-input-bg: unset !important;
+}
