@@ -398,7 +398,7 @@
   font-size: 20px;
 }
 .info-1VyQPT::after {
-  content: "Zelk 1.1.1";
+  content: "Zelk 1.2";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 16px;
@@ -411,6 +411,22 @@ div[role="radiogroup"]+div:not(.disabled-2HSEFa) label::after {
 }
 div[role="radiogroup"]+.disabled-2HSEFa {
   opacity: .5;
+}
+.customizationSection-2ns2M6 .buttonsContainer-1Stjd1::after {
+  content: "Custom banner colors won't be shown in Zelk";
+  color: var(--text-danger);
+  font-size: 14px;
+  line-height: 20px;
+  height: 20px;
+  position: relative;
+  top: -34px;
+  left: -170px;
+}
+.customizationSection-2ns2M6 .buttonsContainer-1Stjd1 {
+  margin-top: 42px;
+}
+.swatch-3mFIiP {
+  border-radius: var(--border-radius-2);
 }
 .breadcrumbArrow-1bJVKv {
   top: -4px;
@@ -826,7 +842,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   border-radius: var(--border-radius-2);
 }
 .grid-1nZz7S {
-  padding: 0 1rem 1rem;
+  padding: 0.5rem 1rem 1rem;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
   border-color: var(--background-modifier-selected);
@@ -1524,7 +1540,7 @@ body:not(.powercord) .panels-j1Uci_::after {
   border-radius: var(--border-radius-1);
 }
 .colorPickerCustom-2CWBn2 {
-  background: var(--background-tertiary) !important;
+  background: var(--background-secondary) !important;
   border-color: var(--border-color) !important;
   padding: 10px;
   border-radius: var(--border-radius-1);

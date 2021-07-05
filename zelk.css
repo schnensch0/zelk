@@ -147,3 +147,6 @@
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
+
+/*-----------DON'T CHANGE------------*/
+:root{--outdated:none!important}
