@@ -1,34 +1,55 @@
 /**
  * @name Zelk
- * @version 1.1.1
- * @description a smooth theme inspired by zorin blue
+ * @version 1.2
+ * @description a smooth theme inspired by zorin
  * @author schnensch
  * @authorId 652801938374656013
  * @source https://github.com/schnensch0/zelk
+ * @invite tMEcBhsNqA
  */
-/* imports */
+ /*         ▀▀█ █▀▀ █   █ █
+            ▄▀  █▀▀ █   █▀▄
+            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
+ /*--------------IMPORTS------------- */
 @import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+/*--------------COLORS---------------*/
+/*------remove / and * to apply------*/
+/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
+/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css); */
+/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
+/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
+/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); */
+/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/red.css); */
+
+/*-------------VARIABLES-------------*/
 :root {
-  /* set to 'unset' to display scrollbars */
+  /* set to 'unset' to show */
   --scrollbars: none;
+  /* profile notes */
+  --notes: none;
+  /* direct message box */
+  --message: none;
   /* set to 'Inter', sans-serif !important to use Inter font*/
   --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
-/* dark mode
- basic variables */
+
+/*-----------CUSTOM COLORS-----------*/
+/*-------------DARK MODE-------------*/
+/*---------------BASIC---------------*/
 .theme-dark {
   --accent-color: #bde6fb;
-  --background-1: #131719;
-  --background-2: #191f22;
-  --background-accent: #252e32;
-  --border-color: #1e262a;
+  --background-1: #171d20;
+  --background-2: #1e2529;
+  --background-accent: #1e2529;
+  --border-color: #273034;
 }
-/* advanced variables */
+/*-------------ADVANCED--------------*/
 .theme-dark {
   /* background */
   --background-primary: var(--background-1);
@@ -40,56 +61,54 @@
   --background-floating: var(--background-1);
   --background-mentioned: #bde6fb10;
   --background-mentioned-hover: #bde6fb15;
-  /* modifier colours */
-  --background-modifier-hover: #21292c;
-  --background-modifier-active: #2b3437;
+  /* modifiers */
+  --background-modifier-hover: #262e33;
+  --background-modifier-active: #495a63;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-  /* text colors */
+  /* text */
   --text-normal: var(--accent-color);
-  --text-positive: var(--accent-color);
+  --text-positive: var(--text-normal);
   --text-muted: #6d8692;
   --text-link: #edf8fe;
   --interactive-selected: var(--background-primary);
-  --interactive-active: #c1e7fd;
+  --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
-  --interactive-muted: var(--background-accent);
+  --interactive-muted: var(--button-background-active);
   --channels-default: var(--text-muted);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
-  /* more colors */
-  --settings-icon-color: #8caaba;
-  --radio-bar-accent-color: transparent;
+  /* more */
+  --settings-icon-color: #8eacbc;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
-  --tab-selected: #323d42;
-  --channeltextarea-background: var(--background-tertiary);
+  --tab-selected: #354249;
   --switch: #3d4c53;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
-  --deprecated-text-input-bg: var(--background-secondary);
   /* buttons */
-  --button-background: #252e32;
-  --button-background-hover: #323d42;
-  --button-background-active: #4a5b63;
+  --button-background: #2a3439;
+  --button-background-hover: #354249;
+  --button-background-active: #4d5f68;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #d6f1fd;
-  --button-accent-active: #95d2f0;
+  --button-accent-hover: #d2f3ff;
+  --button-accent-active: #8dd4f8;
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-/* light mode
-  basic variables */
+
+/*-------------LIGHT MODE------------*/
+/*---------------BASIC---------------*/
 .theme-light {
   --accent-color: #22c5fd;
-  --background-1: #e4e8ee;
+  --background-1: #ffffff;
   --background-2: #f5f7fa;
-  --background-accent: #e4e8ee;
-  --border-color: #e4e8ee;
+  --background-accent: var(--background-2);
+  --border-color: transparent;
 }
-/* advanced variables */
+/*-------------ADVANCED--------------*/
 .theme-light {
   /* background */
   --background-primary: var(--background-1);
@@ -101,47 +120,47 @@
   --background-floating: var(--background-1);
   --background-mentioned: #22c5fd10;
   --background-mentioned-hover: #22c5fd15;
-  /* modifier colours */
-  --background-modifier-hover: var(--background-accent);
-  --background-modifier-active: var(--background-accent);
+  /* modifiers */
+  --background-modifier-hover: transparent;
+  --background-modifier-active: #b7c2cc;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
-  /* text colors */
+  /* text */
   --text-normal: #123354;
-  --text-positive: #123354;
+  --text-positive: var(--text-normal);
   --text-muted: #8495a7;
   --text-link: #15a6f0;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
-  --interactive-muted: var(--background-accent);
+  --interactive-muted: var(--text-muted);
   --channels-default: var(--text-normal);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
-  /* more colors */
+  /* more */
   --settings-icon-color: #566e86;
-  --radio-bar-accent-color: transparent;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
-  --tab-selected: #c5cfd7;
-  --channeltextarea-background: var(--background-tertiary);
+  --tab-selected: var(--background-1);
   --switch: #c8d0d9;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
-  --deprecated-text-input-bg: var(--background-secondary);
   /* buttons */
-  --button-background: #e4e8ee;
+  --button-background: var(--background-1);
   --button-background-hover: #d3dae1;
-  --button-background-active: #c8d0d9;
+  --button-background-active: #b1bcc8;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #d6f1fd;
-  --button-accent-active: #95d2f0;
+  --button-accent-hover: #22c5fd;
+  --button-accent-active: #0d87c5;
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-/* usrbg | snippet by _david_#0218*/
+
+/*-----------DON'T CHANGE------------*/
+:root{--outdated:none!important}
+/*  usrbg | snippet by _david_#0218  */
 .userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d, .root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
   height: 120px;
   background: var(--background-tertiary) var(--user-background) var(--user-popout-position, center) center / cover !important;
