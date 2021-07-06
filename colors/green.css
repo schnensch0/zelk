@@ -3,7 +3,6 @@
   --accent-color: #bbf1dd !important;
   --background-1: #151c19 !important;
   --background-2: #1b2421 !important;
-  --background-accent: #1e2529 !important;
   --border-color: #242f2b !important;
   --background-mentioned: #bbf1dd10 !important;
   --background-mentioned-hover: #bbf1dd15 !important;
@@ -28,13 +27,12 @@
   --accent-color: #2ae18e !important;
   --background-1: #e5eceb !important;
   --background-2: #f6f9f9 !important;
-  --background-accent: var(--background-2) !important;
   --border-color: transparent !important;
   --background-mentioned: #2ae18e10 !important;
   --background-mentioned-hover: #2ae18e15 !important;
   --background-modifier-hover: transparent !important;
   --background-modifier-active: #d5dedd !important;
-  --text-normal: #19483E !important;
+  --text-normal: #19483e !important;
   --text-muted: #88a19c !important;
   --text-link: #219e6f !important;
   --settings-icon-color: #5a7c76 !important;
@@ -57,6 +55,7 @@
   --background-tertiary: var(--background-2) !important;
   --background-accent-gradient: var(--background-2) !important;
   --background-floating: var(--background-1) !important;
+  --background-accent: var(--background-2) !important;
   --background-modifier-selected: var(--accent-color) !important;
   --text-positive: var(--text-normal) !important;
   --interactive-selected: var(--background-primary) !important;
