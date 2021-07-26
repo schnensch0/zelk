@@ -23,11 +23,6 @@ Search for **Zelk** in the Themes tab
 ![Mockup](https://raw.githubusercontent.com/schnensch0/zelk/main/preview/mockup.png)
 for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/preview)
 
-### TO DO
-* more accent colors
-* more variable stuff
-* more clean up
-
 ### CREDITS
 Inter from [rsms.me/inter](https://rsms.me/inter/)
 
