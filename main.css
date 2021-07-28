@@ -102,14 +102,22 @@
 .searchBar-3dMhjb, .search-2oPWTC {
   background-color: var(--button-background);
 }
-.threadSidebar-1o3BTy>section>.toolbar-1t6TWx .clickable-3rdHwn {
-  border-radius: var(--border-radius-1);
-}
 .toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g) {
   border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
 }
 .toolbar-1t6TWx>:last-child>div, .toolbar-1t6TWx>:last-child {
   border-radius: 0px var(--border-radius-1) var(--border-radius-1) 0px;
+}
+/* threads */
+.spine--Wla_O {
+  color: var(--text-muted);
+}
+.threadSidebar-1o3BTy, .threadSidebar-1o3BTy .chatContent-a9vAAp {
+  margin-left: 0;
+}
+.chatHeaderBar-4vZS1x {
+  border-radius: var(--border-radius-1) var(--border-radius-1) 0 0;
+  border-bottom: 1px solid var(--border-color);
 }
 /* red things */
 :root {
