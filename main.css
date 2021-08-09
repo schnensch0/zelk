@@ -54,13 +54,15 @@
 .inviteToolbar-3F-l2g>div {
   padding: 7px 7px 29px 10px !important;
   border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
+  background-color: var(--button-background);
+  margin: 1px;
 }
-.toolbar-1t6TWx .clickable-3rdHwn:not([aria-label*="Thread"]) {
+.toolbar-1t6TWx .clickable-3rdHwn:not([aria-label*="Thread"]):not([aria-label="Fils"]) {
   padding: 7px 7px 29px 7px;
   background-color: var(--button-background);
   margin: 1px;
 }
-.toolbar-1t6TWx .clickable-3rdHwn[aria-label*="Thread"] {
+.toolbar-1t6TWx .clickable-3rdHwn[aria-label*="Thread"], .toolbar-1t6TWx .clickable-3rdHwn[aria-label="Fils"] {
   border-left: 7px solid var(--button-background);
   border-top: 18px solid var(--button-background);
   border-right: 7px solid var(--button-background);
@@ -92,11 +94,11 @@
   order: -1;
 }
 .searchBar-3dMhjb[aria-expanded="false"] .DraftEditor-root {
-  transition: opacity 1s;
+  transition: opacity 150ms;
   opacity: 0;
 }
 .searchBar-3dMhjb[aria-expanded="true"] .DraftEditor-root {
-  transition: opacity 1s;
+  transition: opacity 150ms;
   margin-right: 8px;;
   border: 2px solid var(--background-modifier-selected);
   background-color: var(--background-secondary);

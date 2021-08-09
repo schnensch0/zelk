@@ -24,3 +24,5 @@ If applicable, add screenshots to help explain your problem.
  - Release Channel: [e.g. canary, stable]
  - Enabled Themes:
  - Enabled Plugins:
+ - Custom CSS: [yes/no]
+ - Discord Language: 

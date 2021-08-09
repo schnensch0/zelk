@@ -15,7 +15,7 @@ git clone https://github.com/schnensch0/zelk.git
 ```
 
 #### Better Discord
-[Download](https://betterdiscord.app/Download?id=300) and move it into your themes folder
+[Download](https://betterdiscord.app/Download?id=300) and move the file into your themes folder
 
 #### Goosemod
 Search for **Zelk** in the Themes tab
@@ -32,4 +32,4 @@ Inter from [rsms.me/inter](https://rsms.me/inter/)
 
 [USRBG](https://github.com/Discord-Custom-Covers/usrbg) by Tropical
 
-Snippets by david_#0218, [Nyria#3863](https://github.com/NYRI4), [mackenzie#0173](https://github.com/spinfish) and [Bowser65#1337](https://github.com/cyyynthia)
+Snippets by david_#0218, [mackenzie#0173](https://github.com/spinfish) and [Bowser65#1337](https://github.com/cyyynthia)
