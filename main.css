@@ -93,21 +93,24 @@
   margin: 1px 4px 1px 1px;
   order: -1;
 }
-.searchBar-3dMhjb[aria-expanded="false"] .DraftEditor-root {
+.search-2oPWTC:not(.open-6_Y_aH) .DraftEditor-root {
   transition: opacity 150ms;
   opacity: 0;
 }
-.searchBar-3dMhjb[aria-expanded="true"] .DraftEditor-root {
-  transition: opacity 150ms;
-  margin-right: 8px;;
-  border: 2px solid var(--background-modifier-selected);
+.search-2oPWTC.open-6_Y_aH .DraftEditor-root {
   background-color: var(--background-secondary);
   border-radius: var(--border-radius-2);
+  margin-right: 8px;
+  transition: opacity 150ms;
+  border: 2px solid var(--background-secondary);
 }
-.searchBar-3dMhjb[aria-expanded="false"] {
+.searchBar-3dMhjb[aria-expanded="true"] .DraftEditor-root {
+  border-color: var(--background-modifier-selected);
+}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
   width: 40px;
 }
-.searchBar-3dMhjb[aria-expanded="true"] {
+.search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {
   width: 281px;
 }
 .searchBar-3dMhjb {
@@ -327,7 +330,7 @@
 .sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .scroller-305q3I, .powercord-entities-manage-tabs, .bannerUploaderInnerSquare-1ddxpx, .popoutInfo-pKbpvG {
   background-color: var(--background-tertiary) !important;
 }
-.sidebar-CFHs9e {
+#app-mount .app-1q1i1E .app-2rEoOp .layers-3iHuyZ .sidebarRegion-VFTUkN .sidebar-CFHs9e {
   width: 290px !important;
   padding-right: 40px;
   padding-left: 40px;
@@ -447,7 +450,7 @@
   line-height: 16px;
 }
 div[role="radiogroup"]+div:not(.disabled-2HSEFa) label::after {
-  content: "\A Enabling this setting might cause issues using Zelk";
+  content: "\A Enabling this setting will cause issues when using Zelk";
   white-space: pre;
   color: var(--text-danger);
   font-size: 14px;
@@ -838,7 +841,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   border-top: transparent;
 }
 .tabBody-3YRQ8W::before, .divider-3FBTu8, .content-yTz4x3:before, .chat-1cCjJ5::before, .separator-XqIyoz, .pc-connections .connectedAccounts-QlRa4m:empty::before, .divider-ewBQKj, .divider-JMvf_l {
-  display: none;
+  display: none !important;
 }
 .searchBar-6Kv8R2, .header-2V-4Sw, .headerBarContainer-31FKNA {
   box-shadow: none;
