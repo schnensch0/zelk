@@ -1,0 +1,65 @@
+/* Discord */
+:root {
+  --background-primary: #36393f !important;
+  --background-secondary: #2f3136 !important;
+  --background-secondary-alt: #292b2f !important;
+  --background-tertiary: #202225 !important;
+  --background-floating: #18191c !important;
+  --background-accent: #4f545c !important;
+  --border-color: var(--background-modifier-accent);
+  --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1) !important;
+  --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08) !important;
+  --background-modifier-hover: #4f545c29 !important;
+  --background-modifier-active: #4f545c3d !important;
+  --text-normal: #dcddde !important;
+  --text-muted: #72767d !important;
+  --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%) !important;
+  --settings-icon-color: var(--interactive-normal) !important;
+  --tab-selected: var(--background-modifier-selected) !important;
+  --switch: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%) !important;
+  --button-background: #4f545c !important;
+  --button-background-hover: #5d6269 !important;
+  --button-background-active: #72767d !important;
+  --button-accent-hover: var(--brand-experiment-560) !important;
+  --button-accent-active: var(--brand-experiment-600) !important;
+  --button-destructive: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%) !important;
+  --button-destructive-hover: hsl(359,calc(var(--saturation-factor, 1)*56.7%),48%) !important;
+  --button-destructive-active: hsl(359,calc(var(--saturation-factor, 1)*56.3%),40.4%) !important;
+  --background-modifier-selected: #4f545c52 !important;
+  --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%) !important;
+  --interactive-selected: var(--interactive-active) !important;
+  --background-modifier-accent: #ffffff0f !important;
+  --background-message-hover: #04040512 !important;
+  --interactive-normal: #b9bbbe !important;
+  --interactive-muted: #4f545c!important;
+  --channels-default: #8e9297 !important;
+  --header-primary: #fff !important;
+  --header-secondary: #b9bbbe !important;
+  --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%) !important;
+  --info-warning-foreground: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%) !important;
+  --activity-card-background: #202225 !important;
+  --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%) !important;
+  --button-accent: var(--accent-color) !important;
+  --interactive-active: #fff !important;
+  --interactive-hover: #dcddde !important;
+  --accent-color: var(--brand-experiment);
+  --channeltextarea-background: #40444b;
+}
+.contentRegionScroller-26nc1e {
+    background-color: var(--background-primary) !important;
+}
+.sidebarRegionScroller-3MXcoP {
+    background: var(--background-secondary) !important;
+}
+.childWrapper-anI2G9 {
+    color: var(--text-normal) !important;
+}
+.circleIconButton-1QV--U {
+    color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+}
+.topPill-30KHOu .item-PXvHYJ[aria-controls="ADD_FRIEND-tab"], .container-3auIfb:not([style*="218"]), .bd-switch-checked .bd-switch-body {
+    background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%) !important;
+}
+.body-r6_QPy, .activity-3v9l4T, .profileBanner-33-uE1, .avatar-37jOim, .headerTop-2y3V6H, .headerTop-3vNv-a, .headerTop-2cWpdB, .activity-fViXj7, .body-3HBlXn, .topSection-y3p-_D, .banner-2QYc2d:not(.settingsBanner-15-pZk), .avatar-AvHqJA, .aboutMeSection---MkQa, .footer-3UKYOU, .footer-1N3bR3, .bodyInnerWrapper-26fQXj, .profileBannerPreview-3_l0Wd, .userPopout-xaxa6l, .bannerNormal-22rPhb {
+    background-color: var(--background-floating) !important;
+}
