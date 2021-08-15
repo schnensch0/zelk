@@ -327,7 +327,7 @@
   padding: 32px !important;
 }
 /* settings */
-.sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .scroller-305q3I, .powercord-entities-manage-tabs, .bannerUploaderInnerSquare-1ddxpx, .popoutInfo-pKbpvG {
+.sidebarRegionScroller-3MXcoP, .titleContainer-2CXtJo, .header-2mZ9Ov, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .scroller-305q3I, .powercord-entities-manage-tabs, .popoutInfo-pKbpvG {
   background-color: var(--background-tertiary) !important;
 }
 #app-mount .app-1q1i1E .app-2rEoOp .layers-3iHuyZ .sidebarRegion-VFTUkN .sidebar-CFHs9e {
@@ -388,7 +388,7 @@
 .powercord-product, .container-cMG81i, .attendeeCTA-3ZZQWt, .input-cIJ7To, .item-26Dhrx, .powercord-entities-manage-tabs, .powercord-account, .activeGame-14JI7o, .formNotice-2_hHWR, .css-118dehu-control, .previewContainer-37c2Si, .auditLog-3jNbM6, .background-1QDuV2, .roleRow-30TwGe, .bd-addon-card, .membershipDialogHouse2-35h9SY, .codeRedemptionRedirect-1wVR4b, .card-o7rAq-, .enableContainer-2DIT9Q, .accountList-33MS45, .container-_phMUq, .feature-2w65J5, .details-1YZMDP>div, .preview-2Vkbi6, .profileBannerPreview-3FLQKD, .card-FDVird:before, .card-3IImnr, .card-11DMwv, .previewContainer-1SS3uO, .error-20ZZpF, .warning-3C2pOH, .membershipDialog-rVL-t_, .videoWrapper-3YdgHH, .background-2hs1sP, .box-J4N4jE, .info-1Vr1AV {
   border-radius: var(--border-radius-1) !important;
 }
-.avatarUploaderInner-3UNxY3:not(.bannerUploaderInnerSquare-1ddxpx), .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to, .card-3AyPWq, .profileBackgroundPreview-3BVL0Q, .profileBannerPreview-3FLQKD .avatar-2PN2-j, .card-3IImnr, .card-11DMwv, .notEnoughMembersError-1KwJkE, .accountProfileCard-1XCH88, .settingsBanner-15-pZk, .info-1Vr1AV {
+.avatarUploaderInner-3UNxY3:not(.bannerUploaderInnerSquare-1ddxpx), .codeRedemptionRedirect-1wVR4b, .auditLog-3jNbM6, .card-o7rAq-, .activeGame-14JI7o, .cardPrimary-1Hv-to, .card-3AyPWq, .profileBackgroundPreview-3BVL0Q, .profileBannerPreview-3FLQKD .avatar-2PN2-j, .card-3IImnr, .card-11DMwv, .notEnoughMembersError-1KwJkE, .accountProfileCard-1XCH88, .info-1Vr1AV {
   background-color: var(--background-secondary) !important;
 }
 .container-CpszHS {
@@ -460,19 +460,6 @@ div[role="radiogroup"]+.disabled-2HSEFa {
 }
 .disabled-2HSEFa .title-31JmR4, .disabled-2HSEFa .container-3auIfb {
   cursor: not-allowed;
-}
-.customizationSection-2ns2M6 .buttonsContainer-1Stjd1::after {
-  content: "Custom banner colors won't be visible when using Zelk";
-  color: var(--text-danger);
-  font-size: 14px;
-  line-height: 20px;
-  height: 20px;
-  position: relative;
-  top: -34px;
-  left: -170px;
-}
-.customizationSection-2ns2M6 .buttonsContainer-1Stjd1 {
-  margin-top: 42px;
 }
 .swatch-3mFIiP {
   border-radius: var(--border-radius-2);
@@ -641,7 +628,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   margin: 2px 8px;
   border-radius: var(--border-radius-1);
 }
-.body-r6_QPy, .activity-3v9l4T, .profileBanner-33-uE1, .avatar-37jOim, .headerTop-2y3V6H, .headerTop-3vNv-a, .headerTop-2cWpdB, .activity-fViXj7, .body-3HBlXn, .topSection-y3p-_D, .banner-2QYc2d:not(.settingsBanner-15-pZk), .avatar-AvHqJA, .aboutMeSection---MkQa, .footer-3UKYOU, .footer-1N3bR3, .bodyInnerWrapper-26fQXj, .profileBannerPreview-3_l0Wd, .userPopout-xaxa6l, .bannerNormal-22rPhb {
+.body-r6_QPy, .activity-3v9l4T, .avatar-37jOim, .headerTop-2y3V6H, .headerTop-3vNv-a, .headerTop-2cWpdB, .activity-fViXj7, .body-3HBlXn, .topSection-y3p-_D,  .avatar-AvHqJA, .aboutMeSection---MkQa, .footer-3UKYOU, .footer-1N3bR3, .bodyInnerWrapper-26fQXj, .profileBannerPreview-3_l0Wd, .userPopout-xaxa6l, .bannerNormal-22rPhb {
   background-color: var(--background-tertiary) !important;
 }
 .bodyInnerWrapper-26fQXj {
@@ -650,15 +637,89 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .lookInverted-2D7oAl .contents-18-Yxp {
   color: var(--interactive-selected);
 }
-.avatar-37jOim, .tabBarContainer-37hZsr, .avatar-AvHqJA, .avatar-1uQSZT, .avatarUploaderInner-Oiob_P {
+.tabBarContainer-37hZsr {
   border: none;
+}
+.avatar-37jOim, .avatar-AvHqJA, .avatarUploaderInner-Oiob_P, .avatar-1uQSZT  {
+  border-color: var(--background-tertiary);
 }
 .avatar-1uQSZT {
   margin: 7px;
 }
-.avatarHint-2A3RNb {
+.avatar-37jOim::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: var(--background-tertiary);
+  border-radius: 50%;
+  z-index: -1;
+  top: 56px;
+  left: 56px;
+}
+.avatar-1uQSZT::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-color: var(--background-tertiary);
+  border-radius: 50%;
+  top: 54px;
+  left: 54px;
+}
+.avatar-AvHqJA::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: var(--background-tertiary);
+  border-radius: 50%;
+  top: 80px;
+  left: 79px;
+}
+.avatarPositionPremium-3We5Ho, .userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn, .avatarUploader-2UF9NL, .avatar-1uQSZT {
+  top: 16px;
+}
+.avatar-AvHqJA {
+  top: -156px;
+}
+.headerText-1vVs-U {
+  flex-grow: 1;
+}
+.profileBadges-ohc0Vu {
+  position: relative;
+  right: 0;
+  max-width: unset;
   top: 0;
-  left: 0;
+  padding-left: 8px;
+  flex-wrap: nowrap;
+}
+.avatar-1uQSZT+div {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.userInfo-iCloHO .container-q03LZO {
+  margin-right: 8px;
+}
+.background-1QDuV2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.headerTop-3vNv-a {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.headerTop-547GTz {
+  top: 20px;
+  justify-content: flex-end;
+}
+.nameTag-ECvD8P {
+  margin-top: 24px;
 }
 .userPopout-xaxa6l {
   border-radius: var(--border-radius-1);
@@ -677,12 +738,21 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   margin-right: 100px;
 }
 .profileBanner-33-uE1 {
-  height: 90px;
+  height: 176px;
+}
+.popoutBanner-19WKGg  {
+  height: 122px;
+}
+.settingsBanner-15-pZk {
+  height: 140px;
 }
 .userInfoSection-q_35fn {
   padding: 0;
 }
-.aboutMeSection---MkQa {
+.userInfo-iCloHO {
+  padding-left: 32px;
+}
+.aboutMeSection---MkQa, .headerTop-3vNv-a {
   padding-top: 16px;
 }
 .body-3HBlXn {
