@@ -719,7 +719,7 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   justify-content: flex-end;
 }
 .nameTag-ECvD8P {
-  margin-top: 24px;
+  margin: 24px 290px 24px 24px;
 }
 .userPopout-xaxa6l {
   border-radius: var(--border-radius-1);
@@ -760,9 +760,6 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 }
 .header-4zuFdR, .customStatusActivity-nmH3DF {
   margin-left: 8px;
-}
-.nameTag-ECvD8P {
-  margin-left: 24px;
 }
 .listScroller-3GmIYj {
   margin: 0 12px 12px 12px;
