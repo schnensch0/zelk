@@ -512,7 +512,6 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 }
 .labelContainer-1BLJti, .item-1tOPte {
   border-radius: var(--border-radius-2);
-  margin-right: 8px;
 }
 .button-1ZiXG9.selected-LCBEAU>svg, .languageSelector-2LVJrh .selected-2114Fj, .languageSelector-2LVJrh .selected-2114Fj:hover {
   color: var(--interactive-selected);
@@ -647,17 +646,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
   margin: 7px;
 }
 .avatar-37jOim::before {
-  content: "";
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  background-color: var(--background-tertiary);
-  border-radius: 50%;
   z-index: -1;
-  top: 56px;
-  left: 56px;
 }
-.avatar-1uQSZT::before {
+.avatar-1uQSZT::before,  .avatar-37jOim::before {
   content: "";
   position: absolute;
   width: 28px;
@@ -1503,11 +1494,11 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .theme-dark, .theme-light {
   --scrollbar-auto-track: transparent;
 }
-::-webkit-scrollbar-track {
-  width:
-}
 ::-webkit-scrollbar-thumb {
   background-color: var(--background-accent) !important;
+}
+.menu-3sdvDG ::-webkit-scrollbar {
+  display: unset;
 }
 /* spotify */
 :root {
