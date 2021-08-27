@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug in this theme
+about: Report a bug
 title: "[BUG]"
 labels: bug
 assignees: ''
@@ -16,7 +16,7 @@ Steps to reproduce the behavior:
 2. Click on '....'
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+If possible add screenshots to help explain your problem.
 
 **Setup**
  - OS: [e.g. Windows]
@@ -25,4 +25,4 @@ If applicable, add screenshots to help explain your problem.
  - Enabled Themes:
  - Enabled Plugins:
  - Custom CSS: [yes/no]
- - Discord Language: 
+ - Discord Language:

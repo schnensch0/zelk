@@ -1,13 +1,13 @@
 ---
 name: Feature request
-about: Suggest an new feature for this theme
+about: Suggest an new feature
 title: "[FEATURE REQUEST]"
 labels: feature request
 assignees: ''
 
 ---
 
-**What feature would you like to see added to Zelk?**
+**What feature would you like to see added?**
 Describe what you want to have added.
 
 **How would you like it to be implemented?**

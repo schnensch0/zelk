@@ -28,7 +28,7 @@ Inter from [rsms.me/inter](https://rsms.me/inter/)
 
 [Settings Icons](https://github.com/snappercord/Settings-Icons) for Powercord by Snapper
 
-[Settings Icons](https://github.com/mwittrien/BetterDiscordAddons) for BetterDiscord by mwittrien
+[Settings Icons](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css) for BetterDiscord by mwittrien
 
 [USRBG](https://github.com/Discord-Custom-Covers/usrbg) by Tropical
 
