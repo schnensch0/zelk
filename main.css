@@ -1203,6 +1203,9 @@ svg.slider-TkfMQL svg, .bd-switch-slider>svg {
 .layout-2DM8Md {
   border-radius: var(--border-radius-2);
 }
+.membersWrap-2h-GB4 {
+  min-height: 100%;
+}
 .members-1998pB, .members-1998pB>div, .tabs-3L9Rgq, .container-1CU5bi {
   background-color: var(--background-tertiary);
 }
