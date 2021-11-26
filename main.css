@@ -59,17 +59,14 @@
   background-color: var(--button-background);
   margin: 1px;
 }
-.toolbar-1t6TWx .clickable-3rdHwn:not([aria-label*="Thread"]):not([aria-label="Fils"]):not([aria-label="Gondolatmenetek"]):not([aria-label="子区"]):not([aria-label="Ветки"]) {
+.toolbar-1t6TWx .clickable-3rdHwn {
   padding: 7px 7px 29px 7px;
   background-color: var(--button-background);
   margin: 1px;
 }
-:is(.toolbar-1t6TWx .clickable-3rdHwn)[aria-label*="Thread"], [aria-label="Fils"], [aria-label="Gondolatmenetek"], [aria-label="子区"], [aria-label="Ветки"] {
-  border-left: 7px solid var(--button-background);
-  border-top: 18px solid var(--button-background);
-  border-right: 7px solid var(--button-background);
-  border-bottom: 18px solid var(--button-background);
-  margin: 1px;
+.icon-iDUzSK {
+  align-items: normal;
+  display: flex;
 }
 .toolbar-1t6TWx .clickable-3rdHwn:hover {
   background-color: var(--button-background-hover);
