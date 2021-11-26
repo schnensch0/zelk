@@ -1844,3 +1844,12 @@ body:not(.powercord) .panels-j1Uci_::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
+.icon-iDUzSK {
+    align-content: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
