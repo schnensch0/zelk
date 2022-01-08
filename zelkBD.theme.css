@@ -161,13 +161,13 @@
 /*-----------DON'T CHANGE------------*/
 :root{--outdated:none!important}
 /*  usrbg | snippet by _david_#0218  */
-.userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d, .root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
+.userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N, .root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
   height: 120px;
   background: var(--background-tertiary) var(--user-background) var(--user-popout-position, center) center / cover !important;
 }
-.userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn {
+.userPopout-2j1gM4[style*="--user-background"] .avatarPositionNormal-2jWoC2 {
   top: 76px;
 }
-.root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
+.root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
   height: 240px;
 }
