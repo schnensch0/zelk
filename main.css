@@ -637,10 +637,10 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   color: var(--accent-color);
 }
 /* profiles | thanks to mackenzie#0173 */
-.bodyTitle-3FWCs2, .bodyTitle-2Az3VQ, .footer-1N3bR3, .protip-2urNh2 {
+.bodyTitle-3FWCs2, .bodyTitle-2Az3VQ, .footer-3naVBw, .protip-2urNh2 {
   display: none;
 }
-.footer-k0JFJ6, .footer-1N3bR3 {
+.footer-k0JFJ6, .footer-3naVBw {
   display: var(--message);
 }
 .note-Go5ZP2 textarea, .note-Go5ZP2 textarea, .note-3M15gE, .userInfoSectionHeader-2mYYun:last-of-type {
@@ -653,7 +653,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   margin: 2px 8px;
   border-radius: var(--border-radius-1);
 }
-.body-1Ukv50, .activity-3v9l4T, .avatar-2Vndt_, .headerTop-2y3V6H, .headerTop-3GPUSF, .headerTop-2cWpdB, .activity-fViXj7, .body-2wLx-E, .topSection-13QKHs, .avatar-3QF_VA, .aboutMeSection-PUghFQ, .footer-k0JFJ6, .footer-1N3bR3, .bodyInnerWrapper-2bQs1k, .profileBannerPreview-3_l0Wd, .userPopout-2j1gM4 {
+.body-1Ukv50, .activity-3v9l4T, .avatar-2Vndt_, .headerTop-2y3V6H, .headerTop-3GPUSF, .headerTop-2cWpdB, .activity-fViXj7, .body-2wLx-E, .topSection-13QKHs, .avatar-3QF_VA, .aboutMeSection-PUghFQ, .footer-k0JFJ6, .footer-3naVBw, .bodyInnerWrapper-2bQs1k, .profileBannerPreview-3_l0Wd, .userPopout-2j1gM4 {
   background-color: var(--background-tertiary) !important;
 }
 .bodyInnerWrapper-2bQs1k {
