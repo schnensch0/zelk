@@ -314,16 +314,16 @@
   transform: scale(1.4);
 }
 /* discover */
-.categoryItem-1QIroW {
+.categoryItem-Kc_HK_ {
   margin-right: 8px;
 }
-.card-2TuZPZ, .searchBox-pyIJJj, .searchBox-pyIJJj * {
+.card-2TuZPZ, .searchBox-pyIJJj, .searchBox-pyIJJj *, .container-1wv6C6 {
   background-color: var(--background-tertiary) !important;
 }
 .selectedCategoryItem-ZjqSui .itemInner-3e_4G4 {
   background-color: var(--background-modifier-selected) !important;
 }
-.selectedCategoryItem-ZjqSui, .categoryPill-1zjNrr.selected-bLcqYK .categoryLabel-2m4AT- {
+.selectedCategoryItem-ZjqSui, .categoryPill-1zjNrr.selected-bLcqYK .categoryLabel-2m4AT-, .addButton-Jt0onL {
   color: var(--interactive-selected) !important;
 }
 .inputDefault-3FGxgL {
@@ -344,6 +344,14 @@
 .tag-2QQBcz:hover {
   background-color: var(--background-modifier-hover) !important;
   color: var(--text-normal);
+}
+.scroller-RfJjkV {
+  margin: 0 10px 10px;
+  border-radius: var(--border-radius-1);
+  height: unset;
+}
+.headerImage-1c8Lrb, .container-1wv6C6 {
+  border-radius: var(--border-radius-1);
 }
 /* settings */
 .sidebarRegionScroller-FXiQOh, .titleContainer-3fPic2, .header-JUTO-g, .contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N, .scroller-3_YDR2, .powercord-entities-manage-tabs, .popoutInfo-16MuYF {
@@ -1290,7 +1298,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 .selectorButton-3sW6Qm:not(.selectorButtonPremiumRequired-2pGGEj):hover, .row-1qtctT:hover {
   background-color: var(--background-modifier-hover);
 }
-.root-g14mjS:not(.popout-3gby1q), .footer-31IekZ, .root-g14mjS .avatarUploaderInner-KkYu-S, .uploadModal-2ie9O_, .footer-VCsJQY, .container-18GwIk, .container-18GwIk .icon-mJhEWn, .messagesPopoutWrap-3zryHW, .header-1w9Q93, .popout-3gby1q, .header-145e10 .button-1_oXub, .container-nwU-8G, .container-nwU-8G .icon-2yhmi8, .modal-2TOYtq, .guildSidebar-UHnQqs, .contentWrapper-3oy4Xom, .recentMentionsPopout-2bI1ZN .scroller-145h9c, .authBox-1HR6Ha, .popout-AVsFMl, .guildPopout-G6M0fK, .footer-3YL3ds, .iconMask-1lJhcS, .container-3GP6AV, .content-18CuWF, .uploadDropModal-13Kd20 {
+.root-g14mjS:not(.popout-3gby1q, .container-qBnZJg), .footer-31IekZ, .root-g14mjS .avatarUploaderInner-KkYu-S, .uploadModal-2ie9O_, .footer-VCsJQY, .container-18GwIk, .container-18GwIk .icon-mJhEWn, .messagesPopoutWrap-3zryHW, .header-1w9Q93, .popout-3gby1q, .header-145e10 .button-1_oXub, .container-nwU-8G, .container-nwU-8G .icon-2yhmi8, .modal-2TOYtq, .guildSidebar-UHnQqs, .contentWrapper-3oy4Xom, .recentMentionsPopout-2bI1ZN .scroller-145h9c, .authBox-1HR6Ha, .popout-AVsFMl, .guildPopout-G6M0fK, .footer-3YL3ds, .iconMask-1lJhcS, .container-3GP6AV, .content-18CuWF, .uploadDropModal-13Kd20 {
   background-color: var(--background-tertiary) !important;
 }
 .message-G6O-Wv, .messageGroupCozy-3v_RqN, .container-iA3Qrz .button-1_oXub, .tooltipBrand-20XsMA, .channel-3NJZ1V, .fileUpload-MFkgW2, .popout-TdhJ6Z {
@@ -1540,7 +1548,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 .resultFocused-3aIoYe .username-wzYIu4, .resultFocused-3aIoYe .miscContainer-33U-X- {
   color: var(--interactive-selected);
 }
-.resultDefault-1ymv3u, .resultFocused-3aIoYe {
+.result-u66Ywh {
   border-radius: var(--border-radius-2);
 }
 .result-u66Ywh[aria-selected=true] {
@@ -1725,7 +1733,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 }
 /* outdated warning */
 :root {
-  --outdated: block;
+  --outdated-121: none;
 }
 body:not(.powercord) .panels-3wFtMD::before {
   content: "Please update to Zelk v1.2.1";
@@ -1733,7 +1741,7 @@ body:not(.powercord) .panels-3wFtMD::before {
   color: var(--text-normal);
   text-align: center;
   height: 10px;
-  display: var(--outdated);
+  display: var(--outdated-121);
   background-color: var(--background-primary);
   padding: 10px 0 30px;
   border-top: 1px solid var(--border-color);
@@ -1748,7 +1756,7 @@ body:not(.powercord) .panels-3wFtMD::after {
   top: -74px;
   width: 100%;
   height: 0;
-  display: var(--outdated);
+  display: var(--outdated-121);
 }
 .wrapper-3Hk9OB {
   z-index: 1;
