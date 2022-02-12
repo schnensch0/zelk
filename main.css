@@ -1,4 +1,4 @@
-/* Zelk v1.2.1 */
+/* Zelk v1.2.2 */
 /* imports */
 @import url('https://rsms.me/inter/inter.css');
 /* background */
@@ -471,7 +471,7 @@
   font-size: 20px;
 }
 .info-1sUqUG::after {
-  content: "Zelk 1.2.1";
+  content: "Zelk 1.2.2";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 16px;
@@ -1395,18 +1395,18 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   color: var(--text-normal) !important;
 }
 /* home */
-.channel-1Shao0.selected-1-Z6gm {
-  color: var(--interactive-selected);
-}
 .scroller-WSmht3 {
   border-radius: var(--border-radius-1) var(--border-radius-1) 0 0;
 }
 .emptyCard-KDifrB {
   border-radius: var(--border-radius-1);
 }
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-  background-color: var(--accent-color);
-  color: var(--background-primary);
+.interactive-iyXY_x {
+  border-radius: var(--border-radius-2);
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .interactiveSelected-29CP8y {
+  background-color: var(--interactive-active) !important;
+  color: var(--interactive-selected) !important;
 }
 .childWrapper-1j_1ub {
   color: var(--accent-color);
@@ -1733,15 +1733,15 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 }
 /* outdated warning */
 :root {
-  --outdated-121: none;
+  --outdated-122: none;
 }
 body:not(.powercord) .panels-3wFtMD::before {
-  content: "Please update to Zelk v1.2.1";
+  content: "Please update to Zelk v1.2.2";
   font-weight: 600;
   color: var(--text-normal);
   text-align: center;
   height: 10px;
-  display: var(--outdated-121);
+  display: var(--outdated-122);
   background-color: var(--background-primary);
   padding: 10px 0 30px;
   border-top: 1px solid var(--border-color);
@@ -1756,7 +1756,7 @@ body:not(.powercord) .panels-3wFtMD::after {
   top: -74px;
   width: 100%;
   height: 0;
-  display: var(--outdated-121);
+  display: var(--outdated-122);
 }
 .wrapper-3Hk9OB {
   z-index: 1;

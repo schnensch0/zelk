@@ -26,7 +26,7 @@ for actual previews look [here](https://github.com/schnensch0/zelk/tree/main/pre
 ### CREDITS
 Inter from [rsms.me/inter](https://rsms.me/inter/)
 
-[Settings Icons](https://github.com/snappercord/Settings-Icons) for Powercord by Snapper
+[Settings Icons](https://github.com/CreArts-Community/Settings-Icons) for Powercord by CorellanStoma
 
 [Settings Icons](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css) for BetterDiscord by mwittrien
 

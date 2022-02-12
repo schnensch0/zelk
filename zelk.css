@@ -2,8 +2,8 @@
            ▄▀  █▀▀ █   █▀▄
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
 /*--------------IMPORTS------------- */
-@import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
-@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
+@import url(https://schnensch0.github.io/zelk/main.css);
+@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
@@ -38,6 +38,14 @@
   --background-2: #1e2529;
   --background-accent: #1e2529;
   --border-color: #273034;
+}
+/*-------------LIGHT MODE------------*/
+.theme-light {
+  --accent-color: #22c5fd;
+  --background-1: #ffffff;
+  --background-2: #f5f7fa;
+  --background-accent: var(--background-2);
+  --border-color: transparent;
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
@@ -88,16 +96,6 @@
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-/*-------------LIGHT MODE------------*/
-/*---------------BASIC---------------*/
-.theme-light {
-  --accent-color: #22c5fd;
-  --background-1: #ffffff;
-  --background-2: #f5f7fa;
-  --background-accent: var(--background-2);
-  --border-color: transparent;
-}
-/*-------------ADVANCED--------------*/
 .theme-light {
   /* background */
   --background-primary: var(--background-1);
