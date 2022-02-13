@@ -209,13 +209,13 @@
   color: var(--interactive-hover) !important;
 }
 /* buttons */
-.lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorGrey-2iAG-B, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .button-1iHNQ2, .button-1mXrIh, .questionMark-3V9mGJ, .optionBox-1UOevl {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorGrey-2iAG-B, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .button-1iHNQ2, .button-1mXrIh, .questionMark-3V9mGJ, .optionBox-1UOevl, .lookFilled-yCfaCM.colorBrandNew-2-gGsS {
   background-color: var(--button-background) !important;
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover {
   background-color: var(--button-background-hover) !important;
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:active. .lookFilled-yCfaCM.colorGrey-2iAG-B:active, .lookFilled-yCfaCM.colorPrimary-2AuQVo:active {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:active, .lookFilled-yCfaCM.colorGrey-2iAG-B:active, .lookFilled-yCfaCM.colorPrimary-2AuQVo:active, .lookFilled-yCfaCM.colorBrandNew-2-gGsS:active {
   background-color: var(--button-background-active) !important;
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79, .topPill-3DJJNV .item-3XjbnG[aria-controls="ADD_FRIEND-tab"], .lookOutlined-3yKVGo.colorGreen-3y-Z79, .lookFilled-yCfaCM.colorWhite-1H92hK {
@@ -878,7 +878,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   height: 30px;
   border: 0;
 }
-.tabBarItem-3nPo4Z {
+.tabBarItem-3nPo4Z, .tabBarItem-15vAXA {
   border-radius: var(--border-radius-2);
   padding: 5px 8px;
 }
@@ -1099,7 +1099,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 .header-3OsQeK {
   border-radius: 0 0 var(--border-radius-1) var(--border-radius-1);
 }
-.modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH .content-1gYQeQ:hover .name-28HaxV, .modeSelected-3DmyhH .actionIcon-2sw4Sl {
+.modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH .content-1gYQeQ:hover .name-28HaxV, .modeSelected-3DmyhH .actionIcon-2sw4Sl, .selected-1-Z6gm .name-3Vmqxm {
   color: var(--interactive-selected);
 }
 .animatedContainer-2laTjx {
@@ -1733,7 +1733,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 }
 /* outdated warning */
 :root {
-  --outdated-122: none;
+  --outdated-122: block;
 }
 body:not(.powercord) .panels-3wFtMD::before {
   content: "Please update to Zelk v1.2.2";
