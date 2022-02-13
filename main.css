@@ -215,7 +215,7 @@
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
   background-color: var(--button-background-hover) !important;
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:active. .lookFilled-yCfaCM.colorGrey-2iAG-B:active, .lookFilled-yCfaCM.colorPrimary-2AuQVo:active {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:active, .lookFilled-yCfaCM.colorGrey-2iAG-B:active, .lookFilled-yCfaCM.colorPrimary-2AuQVo:active {
   background-color: var(--button-background-active) !important;
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79, .topPill-3DJJNV .item-3XjbnG[aria-controls="ADD_FRIEND-tab"], .lookOutlined-3yKVGo.colorGreen-3y-Z79, .lookFilled-yCfaCM.colorWhite-1H92hK {
