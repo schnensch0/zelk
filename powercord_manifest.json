@@ -1,8 +1,8 @@
 {
-    "name": "Zelk",
-    "version": "1.2.2",
+    "name": "Zelk-Enc0re",
+    "version": "1.0",
     "license": "MIT",
-    "theme": "zelk.css",
-    "author": "schnensch",
-    "description": "a smooth theme inspired by zorin"
+    "theme": "zelk-enc0re.css",
+    "author": "Saku",
+    "description": "Zelk but fix'd"
 }
