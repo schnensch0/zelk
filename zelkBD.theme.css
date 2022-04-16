@@ -12,17 +12,13 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 /*----------------✨Select Your Colorspace✨----------------*/
 /*------remove the / & * to apply------*/
-/*💙 Blue /* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/blue.css); */
-/*💚 Green/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/green.css); */
-/*🖤 Grey/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/gray.css); */
-/*🧡Orange/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/orange.css); */
-/*💜Purple/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/purple.css); */
-/*❤️Red/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/red.css); */
-
-/*----------------IGNORE----------------*/
+/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/blue.css); */
+/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/green.css); */
+/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/gray.css); */
+/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/orange.css); */
+/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/purple.css); */
+/* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/red.css); */
 /* @import url(https://raw.githack.com/saku-bruh/zelk-encore/main/colors/discord.css); */
-/*----------------IGNORE----------------*/
-
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
