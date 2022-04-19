@@ -711,8 +711,12 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 .avatar-3QF_VA {
   top: -156px;
 }
-.headerText-1-WmDq {
-  flex-grow: 1;
+.headerTop-3GPUSF {
+  flex-direction: row !important;
+}
+.profileBadges-2pItdR {
+  position: static;
+  flex-wrap: nowrap;
 }
 .avatar-3mTjvZ+div {
   margin-top: 4px;
