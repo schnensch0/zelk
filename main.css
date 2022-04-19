@@ -712,7 +712,8 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   top: -156px;
 }
 .headerTop-3GPUSF {
-  flex-direction: row !important;
+  display: flex;
+  justify-content: space-between;
 }
 .profileBadges-2pItdR {
   position: static;
@@ -732,11 +733,6 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 .background-3d_SjE {
   margin-top: 0;
   padding-top: 0;
-}
-.headerTop-3GPUSF {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
 }
 .headerTop-1PNKck {
   top: 20px;
