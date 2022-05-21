@@ -166,3 +166,10 @@
 .root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
   height: 240px;
 }
+/* Snippets for Issues #41 and other thing by BlueSkye#9999 */
+.none-2-_0dP { 
+  background-color: var(--background-tertiary) !important; 
+}
+.channelHeader-DFRX8q, .header-1zd7se {
+  margin-left: 0 !important;
+}
