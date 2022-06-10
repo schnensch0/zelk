@@ -24,6 +24,7 @@
   --background-modifier-hover: #2a2a2a !important;
   --background-modifier-active: #5d5d5d !important;
   --text-normal: var(--accent-color) !important;
+  --text-positive: #6ee1b6 !important;
   --text-muted: #909090 !important;
   --text-link: var(--text-normal) !important;
   --settings-icon-color: #bdbdbd !important;
@@ -48,6 +49,7 @@
   --background-modifier-hover: transparent !important;
   --background-modifier-active: #bebebe !important;
   --text-normal: #29292a !important;
+  --text-positive: #2ac88d !important;
   --text-muted: #909091 !important;
   --text-link: #47494a !important;
   --settings-icon-color: #676767 !important;
@@ -72,7 +74,6 @@
   --background-floating: var(--background-1) !important;
   --background-accent: var(--background-2) !important;
   --background-modifier-selected: var(--accent-color) !important;
-  --text-positive: var(--text-normal) !important;
   --interactive-selected: var(--background-primary) !important;
   --background-modifier-accent: transparent !important;
   --background-message-hover: transparent !important;
