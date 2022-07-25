@@ -1913,3 +1913,7 @@ body:not(.powercord) .panels-3wFtMD::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
+/* Server "home page" beta bg */
+.homeContainer-r4Hvv1 {
+  background-color: var(--background-2);
+}
