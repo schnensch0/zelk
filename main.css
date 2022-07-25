@@ -1917,3 +1917,7 @@ body:not(.powercord) .panels-3wFtMD::after {
 .homeContainer-r4Hvv1 {
   background-color: var(--background-2);
 }
+/* Server forum bg */
+[data-list-id*="forum-channel-list-"] {
+	background-color: var(--background-2);
+}
