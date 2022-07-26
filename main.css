@@ -17,7 +17,7 @@
   --text-brand: var(--brand-experiment);
 }
 .tabBody-2dgbAs, .chat-2ZfjoI, .container-1NXEtd, .container-1oAagU, .privateChannels-oVe7HL, .homeWrapperNormal-bu1BS6 {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary) !important;
 }
 .peopleColumn-1wMU14, .chatContent-3KubbW:not(.container-3XgAHv *), .pageWrapper-2PwDoS, .scroller-29cQFV, .stageSection-3mAD8V {
   border-radius: var(--border-radius-1);
