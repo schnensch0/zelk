@@ -1913,11 +1913,18 @@ body:not(.powercord) .panels-3wFtMD::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
-/* Server "home page" beta bg */
-.homeContainer-r4Hvv1 {
+
+/* Server "home page", forum bg */
+.homeContainer-r4Hvv1, [data-list-id*="forum-channel-list-"] {
   background-color: var(--background-2);
 }
-/* Server forum bg */
-[data-list-id*="forum-channel-list-"] {
-	background-color: var(--background-2);
+
+.chatContent-3KubbW[aria-label*="(thread)"] {
+  background-color: var(--background-1);
+  border-radius: var(--border-radius-1);
+}
+
+/* Annoying line above forum thread */
+.chat-25x62K:before {
+  content: unset;
 }
