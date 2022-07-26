@@ -17,7 +17,7 @@
   --text-brand: var(--brand-experiment);
 }
 .tabBody-2dgbAs, .chat-2ZfjoI, .container-1NXEtd, .container-1oAagU, .privateChannels-oVe7HL, .homeWrapperNormal-bu1BS6 {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary) !important;
 }
 .peopleColumn-1wMU14, .chatContent-3KubbW:not(.container-3XgAHv *), .pageWrapper-2PwDoS, .scroller-29cQFV, .stageSection-3mAD8V {
   border-radius: var(--border-radius-1);
@@ -1912,4 +1912,19 @@ body:not(.powercord) .panels-3wFtMD::after {
 }
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
+}
+
+/* Server "home page", forum bg */
+.homeContainer-r4Hvv1, [data-list-id*="forum-channel-list-"] {
+  background-color: var(--background-2);
+}
+
+.chatContent-3KubbW[aria-label*="(thread)"] {
+  background-color: var(--background-1);
+  border-radius: var(--border-radius-1);
+}
+
+/* Annoying line above forum thread, home page channel popout */
+.chat-25x62K::before, .chat-3t9F_n::before {
+  content: unset;
 }
