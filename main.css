@@ -1913,3 +1913,20 @@ body:not(.powercord) .panels-3wFtMD::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
+
+/* New thread menu */
+section[aria-label="Create Thread"] .messagesWrapper-1AttHb {
+	background-color: var(--background-1);
+	border-radius: var(--border-radius-1);
+}
+
+/* Fix off-color thread name input bar */
+#chat-messages-create-thread-null input {
+	background-color: var(--channeltextarea-background);
+}
+
+/* Make open thread button off of a message 'pop' more */
+div[aria-roledescription="Open Thread Button"] {
+	background: var(--background-2);
+	border-radius: var(--border-radius-2);
+}
