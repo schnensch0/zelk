@@ -1924,7 +1924,7 @@ body:not(.powercord) .panels-3wFtMD::after {
   border-radius: var(--border-radius-1);
 }
 
-/* Annoying line above forum thread */
-.chat-25x62K:before {
+/* Annoying line above forum thread, home page channel popout */
+.chat-25x62K::before, .chat-3t9F_n::before {
   content: unset;
 }
